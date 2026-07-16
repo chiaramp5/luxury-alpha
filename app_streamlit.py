@@ -1,7 +1,7 @@
 import csv
 import streamlit as st
 import pandas as pd
-from ai import generate_market_commentary
+
 
 KNOWN_MODELS = ["Mini Kelly", "Kelly", "Birkin", "Constance", "Picotin"]
 KNOWN_COLORS = ["Sakura", "Gold", "Noir", "Etoupe", "Rose", "Pink", "Mauve Sylvestre", "Bleu Brume"]
@@ -283,45 +283,19 @@ if st.button("Generate Report", use_container_width=True):
             st.markdown("---")
             st.markdown("## Market Commentary")
 
-if recommendation == "BUY":
+            commentary = f"""
+Based on the available comparable sales, this listing appears attractively priced.
 
-    commentary = f"""
-Based on the comparable sales currently available, this listing appears
-attractively priced relative to the market.
+The asking price of **{euro(asking_price)}** is approximately **{round(discount,1)}% below** the estimated fair value of **{euro(fair_value)}**.
 
-The asking price of **{euro(asking_price)}** is approximately
-**{round(discount,1)}% below** the estimated fair value of
-**{euro(fair_value)}**.
+Comparable transactions support the valuation, resulting in an Investment Score of **{investment_score}/100**.
 
-Comparable transactions indicate healthy market demand for similar bags,
-supporting an **Investment Score of {investment_score}/100**.
-
-Overall, the current pricing represents an attractive entry opportunity.
+Overall, current market evidence suggests that this listing represents an attractive buying opportunity.
 """
 
-elif recommendation == "NEGOTIATE":
+            st.write(commentary)
 
-    commentary = f"""
-The listing appears broadly aligned with the current market.
-
-Although the valuation is reasonable, negotiating a lower purchase price
-would improve the expected investment profile.
-
-The current estimate suggests limited upside at the asking price.
-"""
-
-else:
-
-    commentary = f"""
-Comparable transactions indicate that the current asking price is above
-the estimated market value.
-
-Waiting for a better entry point would likely provide a more attractive
-risk/reward profile.
-"""
-
-st.write(commentary)
-
-st.caption(
-    "Methodology: Fair value is estimated using comparable resale observations selected by the Luxury Alpha similarity model."
-)
+            st.caption(
+                "Methodology: Fair value is estimated using comparable resale transactions selected by the Luxury Alpha Similarity Model."
+            )
+            
