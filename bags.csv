@@ -1,11 +1,100 @@
 model,size,color,leather,hardware,year,condition,price
-Mini Kelly,20,Sakura,Epsom,Gold,2023,New,23100
+Mini Kelly,20,Sakura,Epsom,Gold,2023,Excellent,22300
 Mini Kelly,20,Sakura,Epsom,Gold,2022,Excellent,21900
-Mini Kelly,20,Sakura,Epsom,Gold,2023,Used,20900
+Mini Kelly,20,Noir,Epsom,Gold,2023,Excellent,22600
+Mini Kelly,20,Gold,Epsom,Gold,2021,Very Good,21000
+Mini Kelly,20,Etoupe,Epsom,Palladium,2023,Excellent,22100
+Mini Kelly,20,Sakura,Swift,Gold,2023,Excellent,23200
+Mini Kelly,20,Sakura,Chevre,Gold,2023,Excellent,23800
+Mini Kelly,20,Noir,Crocodile,Gold,2023,Excellent,98000
+Mini Kelly,20,Noir,Alligator,Gold,2022,Excellent,108000
+Kelly,25,Gold,Togo,Gold,2023,Excellent,15500
+Kelly,25,Etoupe,Togo,Palladium,2022,Excellent,14900
+Kelly,25,Sakura,Epsom,Gold,2023,Excellent,16700
+Birkin,25,Gold,Togo,Gold,2023,Excellent,19800
+Birkin,25,Etoupe,Togo,Palladium,2022,Excellent,19200
+Birkin,25,Noir,Crocodile,Gold,2023,Excellent,105000
+Constance,18,Noir,Epsom,Gold,2023,Excellent,9800
+Picotin,18,Gold,Clemence,Gold,2023,Excellent,4700
 Mini Kelly,20,Sakura,Epsom,Gold,2024,New,23800
-Mini Kelly,20,Sakura,Epsom,Palladium,2023,Excellent,21600
-Birkin,25,Gold,Togo,Gold,2022,Excellent,19100
-Birkin,25,Gold,Togo,Gold,2023,New,20200
-Birkin,25,Noir,Togo,Palladium,2023,Excellent,18800
-Kelly,25,Etoupe,Epsom,Palladium,2023,Excellent,17400
-Constance,18,Noir,Epsom,Gold,2024,New,14800
+Mini Kelly,20,Sakura,Epsom,Gold,2021,Excellent,21400
+Mini Kelly,20,Etoupe,Epsom,Gold,2022,Excellent,21800
+Mini Kelly,20,Etoupe,Epsom,Palladium,2024,New,22900
+Mini Kelly,20,Gold,Epsom,Palladium,2023,Excellent,22000
+Mini Kelly,20,Noir,Epsom,Palladium,2022,Excellent,21600
+Mini Kelly,20,Rose,Chevre,Gold,2023,Excellent,23600
+Mini Kelly,20,Bleu Brume,Chevre,Gold,2024,New,24500
+Mini Kelly,20,Mauve Sylvestre,Epsom,Gold,2023,Excellent,23900
+Mini Kelly,20,Sakura,Swift,Palladium,2022,Excellent,22700
+Kelly,25,Gold,Togo,Gold,2021,Excellent,14800
+Kelly,25,Gold,Togo,Gold,2024,New,16200
+Kelly,25,Noir,Togo,Palladium,2023,Excellent,15100
+Kelly,25,Etoupe,Clemence,Gold,2022,Very Good,14100
+Kelly,25,Sakura,Epsom,Palladium,2024,New,17100
+Kelly,28,Gold,Togo,Gold,2023,Excellent,15700
+Kelly,28,Etoupe,Epsom,Gold,2022,Excellent,16000
+Kelly,28,Noir,Swift,Palladium,2021,Good,13600
+Birkin,25,Gold,Togo,Gold,2021,Excellent,18600
+Birkin,25,Gold,Togo,Gold,2024,New,20500
+Birkin,25,Etoupe,Togo,Palladium,2023,Excellent,19400
+Birkin,25,Noir,Epsom,Gold,2022,Excellent,19100
+Birkin,30,Gold,Togo,Gold,2023,Excellent,18100
+Birkin,30,Etoupe,Clemence,Palladium,2022,Very Good,17100
+Birkin,30,Noir,Togo,Gold,2021,Excellent,17600
+Constance,18,Gold,Epsom,Gold,2022,Excellent,9700
+Constance,18,Etoupe,Epsom,Palladium,2023,Excellent,10100
+Constance,18,Sakura,Swift,Gold,2024,New,10900
+Picotin,18,Gold,Clemence,Gold,2022,Excellent,4600
+Picotin,18,Etoupe,Clemence,Palladium,2023,Excellent,4800
+Picotin,22,Gold,Clemence,Gold,2023,Excellent,5300
+Picotin,22,Noir,Clemence,Palladium,2024,New,5600
+Mini Kelly,20,Sakura,Epsom,Gold,2020,Very Good,20800
+Mini Kelly,20,Sakura,Epsom,Palladium,2021,Excellent,21300
+Mini Kelly,20,Sakura,Epsom,Palladium,2024,New,23600
+Mini Kelly,20,Gold,Epsom,Gold,2022,Excellent,21700
+Mini Kelly,20,Gold,Epsom,Gold,2024,New,23100
+Mini Kelly,20,Etoupe,Epsom,Gold,2021,Very Good,20900
+Mini Kelly,20,Etoupe,Swift,Gold,2023,Excellent,22600
+Mini Kelly,20,Noir,Swift,Palladium,2024,New,23300
+Mini Kelly,20,Bleu Brume,Epsom,Palladium,2023,Excellent,23700
+Mini Kelly,20,Mauve Sylvestre,Swift,Gold,2022,Excellent,23400
+Mini Kelly,20,Rose,Epsom,Gold,2021,Excellent,21600
+Mini Kelly,20,Rose,Epsom,Palladium,2023,Excellent,22200
+Mini Kelly,20,Sakura,Crocodile,Gold,2022,Excellent,102000
+Mini Kelly,20,Gold,Ostrich,Gold,2023,Excellent,69000
+Mini Kelly,20,Etoupe,Lizard,Palladium,2024,New,61000
+Kelly,25,Gold,Epsom,Gold,2022,Excellent,15900
+Kelly,25,Gold,Epsom,Palladium,2023,Excellent,16100
+Kelly,25,Noir,Epsom,Gold,2024,New,16800
+Kelly,25,Etoupe,Togo,Gold,2021,Very Good,14500
+Kelly,25,Sakura,Swift,Gold,2022,Excellent,15800
+Kelly,25,Rose,Chevre,Gold,2023,Excellent,16600
+Kelly,28,Gold,Togo,Palladium,2024,New,16400
+Kelly,28,Noir,Epsom,Palladium,2023,Excellent,15900
+Kelly,28,Etoupe,Togo,Gold,2020,Good,13900
+Kelly,28,Sakura,Epsom,Gold,2024,New,17600
+Birkin,25,Gold,Epsom,Palladium,2023,Excellent,19600
+Birkin,25,Gold,Clemence,Gold,2022,Excellent,18400
+Birkin,25,Noir,Togo,Gold,2024,New,20700
+Birkin,25,Etoupe,Epsom,Palladium,2021,Very Good,18100
+Birkin,25,Sakura,Swift,Gold,2023,Excellent,19800
+Birkin,25,Rose,Crocodile,Gold,2024,New,114000
+Birkin,30,Gold,Epsom,Gold,2024,New,19200
+Birkin,30,Noir,Clemence,Palladium,2022,Excellent,17300
+Birkin,30,Etoupe,Togo,Gold,2023,Excellent,17900
+Birkin,30,Sakura,Swift,Gold,2021,Excellent,18400
+Birkin,30,Gold,Alligator,Gold,2023,Excellent,124000
+Constance,18,Gold,Swift,Gold,2021,Excellent,9400
+Constance,18,Noir,Epsom,Palladium,2024,New,11000
+Constance,18,Etoupe,Swift,Gold,2022,Excellent,9600
+Constance,18,Sakura,Epsom,Gold,2023,Excellent,10400
+Constance,18,Rose,Epsom,Palladium,2024,New,11200
+Picotin,18,Gold,Clemence,Palladium,2021,Excellent,4500
+Picotin,18,Noir,Clemence,Gold,2022,Excellent,4700
+Picotin,18,Etoupe,Clemence,Gold,2024,New,5100
+Picotin,22,Gold,Clemence,Palladium,2022,Excellent,5200
+Picotin,22,Etoupe,Clemence,Gold,2023,Excellent,5400
+Picotin,22,Noir,Clemence,Gold,2024,New,5700
+Picotin,22,Sakura,Clemence,Gold,2023,Excellent,5600
+Picotin,18,Rose,Clemence,Palladium,2023,Excellent,4950
+Picotin,22,Bleu Brume,Clemence,Gold,2024,New,5800
