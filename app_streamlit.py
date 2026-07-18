@@ -216,10 +216,15 @@ def calculate_similarity(bag, comparable):
 
 
 def find_top_comparables(bag, comparables):
+    same_model_comparables = [
+        comparable
+        for comparable in comparables
+        if comparable["model"] == bag["model"]
+    ]
 
     scored = []
 
-    for comparable in comparables:
+    for comparable in same_model_comparables:
         similarity = calculate_similarity(bag, comparable)
 
         if similarity > 0:
@@ -230,21 +235,7 @@ def find_top_comparables(bag, comparables):
 
     scored.sort(key=lambda x: x["similarity"], reverse=True)
 
-    if len(scored) >= 5:
-        return scored[:5]
-
-    # Fallback: always return the 5 closest bags
-    backup = []
-
-    for comparable in comparables:
-        backup.append({
-            "bag": comparable,
-            "similarity": calculate_similarity(bag, comparable)
-        })
-
-    backup.sort(key=lambda x: x["similarity"], reverse=True)
-
-    return backup[:5]
+    return scored[:5]
 
 def estimate_fair_value(top_comparables):
     prices = [item["bag"]["price"] for item in top_comparables]
@@ -286,10 +277,10 @@ def calculate_investment_score(discount, rarity_score, liquidity_score):
     return round(discount_score * 0.50 + rarity_score * 0.25 + liquidity_score * 0.25)
 
 
-def get_recommendation(score):
-    if score >= 85:
+def get_recommendation(score, discount):
+    if discount >= 15:
         return "BUY"
-    elif score >= 65:
+    elif discount >= 0:
         return "NEGOTIATE"
     else:
         return "PASS"
@@ -312,7 +303,7 @@ def run_valuation(bag):
     rarity_score = calculate_rarity_score(bag)
     liquidity_score = calculate_liquidity_score(bag)
     investment_score = calculate_investment_score(discount, rarity_score, liquidity_score)
-    recommendation = get_recommendation(investment_score)
+    recommendation = get_recommendation(investment_score, discount)
 
     st.markdown("---")
     st.markdown("## Valuation Summary")
@@ -340,7 +331,7 @@ def run_valuation(bag):
     st.metric("Market Discount", str(round(discount, 1)) + "%")
 
     st.markdown("---")
-    st.markdown("## Bag Profile")
+    st.markdown("## Asset Characteristics")
 
     details = pd.DataFrame({
         "Attribute": ["Model", "Size", "Color", "Leather", "Leather Category", "Hardware", "Year", "Condition"],
@@ -388,18 +379,22 @@ def run_valuation(bag):
         })
 
     st.table(pd.DataFrame(comps))
-
     st.markdown("---")
     st.markdown("## Market Commentary")
+    if recommendation == "BUY":
+        intro = "This listing appears attractively priced."
+
+    elif recommendation == "NEGOTIATE":
+        intro = "This listing appears broadly aligned with comparable market values."
+
+    else:
+        intro = "This listing appears priced above comparable market values."
 
     commentary = f"""
-Based on the available comparable sales, this listing appears attractively priced.
+Based on the available comparable sales, {intro}
 
-The asking price of **{euro(asking_price)}** is approximately **{round(discount, 1)}% below**
-the estimated fair value of **{euro(fair_value)}**.
-
-Comparable selection separates standard and exotic leathers, reducing the risk of comparing
-bags from fundamentally different resale markets.
+The asking price of **{euro(asking_price)}** is approximately **{abs(round(discount,1))}%**
+{"below" if discount >= 0 else "above"} the estimated fair value of **{euro(fair_value)}**.
 
 The current investment score is **{investment_score}/100**.
 """
@@ -429,7 +424,13 @@ with col2:
     hardware = st.selectbox("Hardware", KNOWN_HARDWARE)
     year = st.number_input("Year", min_value=1980, max_value=2035, value=2023)
     condition = st.selectbox("Condition", KNOWN_CONDITIONS)
-    price = st.number_input("Asking Price (€)", min_value=0, value=20000, step=500)
+    price = st.number_input(
+        "Asking Price (€)",
+        min_value=3000,
+        max_value=300000,
+        value=20000,
+        step=500
+    )
 
 if st.button("Generate Report", use_container_width=True):
     bag = {
@@ -444,4 +445,4 @@ if st.button("Generate Report", use_container_width=True):
         "description": f"{model} {size} {color} {leather} {hardware} {year} {condition} {price}"
     }
 
-    run_valuation(bag)
+    run_valuation(bag)  
