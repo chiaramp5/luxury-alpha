@@ -338,6 +338,11 @@ select:focus, input:focus {
   font-style: italic;
 }
 
+.data-source-note a {
+  color: var(--gold);
+  font-style: normal;
+}
+
 table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
 
 th {
