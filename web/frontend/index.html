@@ -25,7 +25,7 @@
       <path d="M 195 130 C 195 60 245 25 300 25 C 355 25 405 60 405 130"
             fill="none" stroke="var(--line)" stroke-width="6" stroke-linecap="round" />
       <!-- straps -->
-      <path d="M 150 175 L 175 130 M 450 175 L 425 130" stroke="var(--line)" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M 150 175 L 195 130 M 450 175 L 405 130" stroke="var(--line)" stroke-width="5" stroke-linecap="round" fill="none"/>
       <!-- body -->
       <path d="M 110 200
                C 110 175 130 165 150 165
@@ -46,10 +46,33 @@
       <!-- clochette -->
       <path d="M 300 301 C 296 320 296 332 300 348 C 304 332 304 320 300 301 Z" fill="none" stroke="var(--line)" stroke-width="3" opacity="0.7" />
       <!-- stitching -->
-      <path d="M 122 240 L 122 440 M 478 240 L 478 440" stroke="var(--line)" stroke-width="2" stroke-dasharray="6 8" opacity="0.5" />
+      <path d="M 122 240 L 138 440 M 478 240 L 462 440" stroke="var(--line)" stroke-width="2" stroke-dasharray="6 8" opacity="0.5" />
       <!-- feet -->
       <circle cx="175" cy="495" r="9" fill="none" stroke="var(--line)" stroke-width="3.5" />
       <circle cx="425" cy="495" r="9" fill="none" stroke="var(--line)" stroke-width="3.5" />
+      <!-- horse charm, hanging from a drooping leather loop -->
+      <g transform="translate(406,135) scale(0.78)">
+        <path d="M 12 6 Q 42 44 50 16" fill="none" stroke="var(--line)" stroke-width="3.5" stroke-linecap="round" opacity="0.75"/>
+        <ellipse cx="50" cy="16" rx="5.5" ry="4" fill="none" stroke="var(--line)" stroke-width="2.2"/>
+        <path d="M 51 20 Q 56 27 60 33" fill="none" stroke="var(--line)" stroke-width="2.2" stroke-linecap="round"/>
+        <g stroke="var(--line)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+          <path d="M 24 42 Q 8 46 5 64 M 26 44 Q 12 52 9 72 M 29 47 Q 16 58 14 78 M 32 49 Q 20 62 19 82" fill="none" stroke="var(--orange)" stroke-width="2"/>
+          <rect x="34" y="60" width="9" height="24" rx="4.5" fill="var(--gold-soft)"/>
+          <rect x="64" y="60" width="9" height="24" rx="4.5" fill="var(--gold-soft)"/>
+          <rect x="26" y="36" width="56" height="30" rx="15" fill="var(--gold-soft)"/>
+          <ellipse cx="55" cy="44" rx="13" ry="9" fill="var(--orange)" stroke="none"/>
+          <path d="M 68 40 C 78 30 84 22 90 16 Q 94 13 98 17 C 101 21 101 25 97 28 C 93 31 88 31 84 33 C 80 37 76 42 72 48 Z" fill="var(--gold-soft)"/>
+          <polygon points="86,17 90,7 93,16" fill="var(--gold-soft)"/>
+        </g>
+        <g fill="var(--orange)" stroke="none">
+          <polygon points="61,41 65,32 66,42"/>
+          <polygon points="66,38 70,29 71,39"/>
+          <polygon points="71,34 75,25 76,35"/>
+          <polygon points="76,29 80,20 81,30"/>
+          <polygon points="81,24 85,15 86,25"/>
+          <polygon points="86,19 90,10 91,20"/>
+        </g>
+      </g>
     </svg>
   </div>
 
@@ -159,16 +182,6 @@
       </div>
     </div>
 
-    <div class="positioning">
-      <p class="section-label">Price Positioning</p>
-      <div class="positioning-chart" id="r-positioning"></div>
-    </div>
-
-    <div class="characteristics">
-      <p class="section-label">Characteristics</p>
-      <dl id="r-characteristics"></dl>
-    </div>
-
     <div class="comparables">
       <p class="section-label">Comparable Sales</p>
       <table id="r-comparables">
@@ -177,11 +190,6 @@
         </thead>
         <tbody></tbody>
       </table>
-    </div>
-
-    <div class="commentary">
-      <p class="section-label">Market Commentary</p>
-      <p id="r-commentary"></p>
     </div>
   </section>
 

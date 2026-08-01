@@ -54,47 +54,6 @@ function setupDiscoverButton() {
   });
 }
 
-function renderPositioning(container, askingPrice, fairValue) {
-  const max = Math.max(askingPrice, fairValue) * 1.05;
-  container.innerHTML = "";
-
-  const rows = [
-    { label: "Asking Price", value: askingPrice, cls: "" },
-    { label: "Fair Value", value: fairValue, cls: "fair" },
-  ];
-
-  for (const row of rows) {
-    const el = document.createElement("div");
-    el.className = `pos-row ${row.cls}`;
-    const pct = (row.value / max) * 100;
-    el.innerHTML = `
-      <span class="pos-label">${row.label}</span>
-      <div class="pos-track"><div class="pos-fill" style="width:${pct}%"></div></div>
-      <span class="pos-value">${euro(row.value)}</span>
-    `;
-    container.appendChild(el);
-  }
-}
-
-function renderCharacteristics(container, characteristics) {
-  const labels = {
-    model: "Model",
-    size: "Size",
-    color: "Color",
-    leather: "Leather",
-    leather_category: "Leather Category",
-    hardware: "Hardware",
-    year: "Year",
-    condition: "Condition",
-  };
-  container.innerHTML = "";
-  for (const [key, label] of Object.entries(labels)) {
-    const div = document.createElement("div");
-    div.innerHTML = `<dt>${label}</dt><dd>${characteristics[key] ?? "—"}</dd>`;
-    container.appendChild(div);
-  }
-}
-
 function renderComparables(tbody, comparables) {
   tbody.innerHTML = "";
   for (const comp of comparables) {
@@ -144,10 +103,7 @@ function renderResults(data) {
     document.getElementById(`r-${key}-pct`).textContent = `${value}/100`;
   }
 
-  renderPositioning(document.getElementById("r-positioning"), data.asking_price, data.fair_value);
-  renderCharacteristics(document.getElementById("r-characteristics"), data.characteristics);
   renderComparables(document.querySelector("#r-comparables tbody"), data.comparables);
-  document.getElementById("r-commentary").textContent = data.commentary;
 
   document.getElementById("results-panel").hidden = false;
   document.getElementById("results-panel").scrollIntoView({ behavior: "smooth", block: "start" });
