@@ -60,6 +60,23 @@ Additional adjustments are applied based on product characteristics such as colo
 
 ---
 
+## Web App
+
+A standalone website version lives in [`web/`](web/) — a FastAPI backend reusing the
+same valuation engine, serving a static HTML/CSS/JS frontend with a full-bleed
+hero illustration, scroll-driven zoom, and a guided estimation form, backed by
+an expanded ~700-row comparable-sales dataset.
+
+```bash
+pip install -r requirements-web.txt
+python web/backend/generate_data.py   # (optional) regenerate the dataset
+uvicorn web.backend.main:app --reload
+```
+
+Then open `http://127.0.0.1:8000`.
+
+---
+
 ## Project Structure
 
 ```
@@ -68,6 +85,7 @@ Luxury Alpha
 ├── app_streamlit.py
 ├── bags.csv
 ├── knowledge.py
+├── web/                  # standalone website (FastAPI + static frontend)
 ├── README.md
 ```
 

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Luxury Alpha — Hermès Valuation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<section class="hero" id="hero">
+  <div class="hero-bag" id="hero-bag">
+    <svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="bagGradient" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="var(--bag-top)" />
+          <stop offset="100%" stop-color="var(--bag-bottom)" />
+        </linearGradient>
+      </defs>
+      <!-- handles -->
+      <path d="M 195 130 C 195 60 245 25 300 25 C 355 25 405 60 405 130"
+            fill="none" stroke="var(--line)" stroke-width="6" stroke-linecap="round" />
+      <!-- straps -->
+      <path d="M 150 175 L 175 130 M 450 175 L 425 130" stroke="var(--line)" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <!-- body -->
+      <path d="M 110 200
+               C 110 175 130 165 150 165
+               L 450 165
+               C 470 165 490 175 490 200
+               L 470 455
+               C 468 480 445 495 415 495
+               L 185 495
+               C 155 495 132 480 130 455
+               Z"
+            fill="url(#bagGradient)" stroke="var(--line)" stroke-width="6" />
+      <!-- flap -->
+      <path d="M 130 220 L 470 220 L 452 340 C 400 365 200 365 148 340 Z"
+            fill="none" stroke="var(--line)" stroke-width="4.5" opacity="0.75" />
+      <!-- turn-lock plate -->
+      <rect x="266" y="255" width="68" height="46" rx="6" fill="none" stroke="var(--line)" stroke-width="4" />
+      <circle cx="300" cy="278" r="7" fill="var(--line)" />
+      <!-- clochette -->
+      <path d="M 300 301 C 296 320 296 332 300 348 C 304 332 304 320 300 301 Z" fill="none" stroke="var(--line)" stroke-width="3" opacity="0.7" />
+      <!-- stitching -->
+      <path d="M 122 240 L 122 440 M 478 240 L 478 440" stroke="var(--line)" stroke-width="2" stroke-dasharray="6 8" opacity="0.5" />
+      <!-- feet -->
+      <circle cx="175" cy="495" r="9" fill="none" stroke="var(--line)" stroke-width="3.5" />
+      <circle cx="425" cy="495" r="9" fill="none" stroke="var(--line)" stroke-width="3.5" />
+    </svg>
+  </div>
+
+  <div class="hero-top">
+    <p class="eyebrow">Luxury Alpha</p>
+    <h1>The art of valuing a Hermès</h1>
+  </div>
+
+  <div class="hero-bottom">
+    <p class="hero-sub">Market comparables, fair value and investment opinion — in seconds.</p>
+    <button class="discover" id="discover-btn" type="button">
+      <span>Value my bag</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1v17M1 12l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</section>
+
+<main class="content" id="content">
+
+  <section class="panel form-panel" id="form-panel">
+    <p class="eyebrow">Guided Valuation</p>
+    <h2>Describe your piece</h2>
+
+    <form id="bag-form">
+      <div class="field-grid">
+        <label>Model
+          <select name="model" id="f-model" required></select>
+        </label>
+        <label>Size
+          <select name="size" id="f-size" required></select>
+        </label>
+        <label>Color
+          <select name="color" id="f-color" required></select>
+        </label>
+        <label>Leather
+          <select name="leather" id="f-leather" required></select>
+        </label>
+        <label>Hardware
+          <select name="hardware" id="f-hardware" required></select>
+        </label>
+        <label>Year
+          <input type="number" name="year" id="f-year" min="1980" max="2035" value="2023" required />
+        </label>
+        <label>Condition
+          <select name="condition" id="f-condition" required></select>
+        </label>
+        <label>Asking Price (€)
+          <input type="number" name="price" id="f-price" min="500" max="500000" step="100" value="18000" required />
+        </label>
+      </div>
+
+      <button type="submit" class="submit-btn">Generate Estimate</button>
+    </form>
+
+    <p class="form-error" id="form-error" hidden></p>
+  </section>
+
+  <section class="panel results-panel" id="results-panel" hidden>
+
+    <div class="metrics-row">
+      <div class="metric">
+        <span class="metric-label">Fair Value</span>
+        <span class="metric-value" id="r-fair-value">—</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">Asking Price</span>
+        <span class="metric-value" id="r-asking-price">—</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">Upside</span>
+        <span class="metric-value" id="r-upside">—</span>
+      </div>
+    </div>
+
+    <div class="recommendation" id="r-recommendation">
+      <span class="rec-badge" id="r-rec-badge">—</span>
+      <p id="r-rec-text"></p>
+    </div>
+
+    <div class="score-row">
+      <div class="score-block">
+        <span class="score-label">Investment Score</span>
+        <span class="score-value" id="r-investment-score">—</span>
+      </div>
+      <div class="score-block">
+        <span class="score-label">Market Discount</span>
+        <span class="score-value" id="r-discount">—</span>
+      </div>
+      <div class="score-block">
+        <span class="score-label">Confidence</span>
+        <span class="score-value" id="r-confidence">—</span>
+      </div>
+    </div>
+
+    <div class="indicators">
+      <div class="indicator">
+        <div class="indicator-head"><span>Investment Potential</span><span id="r-investment-pct"></span></div>
+        <div class="bar"><div class="bar-fill" id="r-investment-bar"></div></div>
+      </div>
+      <div class="indicator">
+        <div class="indicator-head"><span>Liquidity</span><span id="r-liquidity-pct"></span></div>
+        <div class="bar"><div class="bar-fill" id="r-liquidity-bar"></div></div>
+      </div>
+      <div class="indicator">
+        <div class="indicator-head"><span>Rarity</span><span id="r-rarity-pct"></span></div>
+        <div class="bar"><div class="bar-fill" id="r-rarity-bar"></div></div>
+      </div>
+    </div>
+
+    <div class="positioning">
+      <p class="section-label">Price Positioning</p>
+      <div class="positioning-chart" id="r-positioning"></div>
+    </div>
+
+    <div class="characteristics">
+      <p class="section-label">Characteristics</p>
+      <dl id="r-characteristics"></dl>
+    </div>
+
+    <div class="comparables">
+      <p class="section-label">Comparable Sales</p>
+      <table id="r-comparables">
+        <thead>
+          <tr><th>Comparable</th><th>Year</th><th>Condition</th><th>Price</th><th>Similarity</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="commentary">
+      <p class="section-label">Market Commentary</p>
+      <p id="r-commentary"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Luxury Alpha — a decision-support tool, not regulated financial advice.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
