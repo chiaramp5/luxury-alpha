@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Luxury Alpha — Hermès Valuation</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23f6f1e9'/%3E%3Ccircle cx='50' cy='50' r='22' fill='%23e2631a'/%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -41,7 +42,7 @@
             fill="none" stroke="var(--line)" stroke-width="4.5" opacity="0.75" />
       <!-- turn-lock plate -->
       <rect x="266" y="255" width="68" height="46" rx="6" fill="none" stroke="var(--line)" stroke-width="4" />
-      <circle cx="300" cy="278" r="7" fill="var(--line)" />
+      <circle cx="300" cy="278" r="7" fill="var(--orange)" />
       <!-- clochette -->
       <path d="M 300 301 C 296 320 296 332 300 348 C 304 332 304 320 300 301 Z" fill="none" stroke="var(--line)" stroke-width="3" opacity="0.7" />
       <!-- stitching -->
@@ -54,13 +55,13 @@
 
   <div class="hero-top">
     <p class="eyebrow">Luxury Alpha</p>
-    <h1>The art of valuing a Hermès</h1>
+    <h1>Before you buy, know its worth</h1>
   </div>
 
   <div class="hero-bottom">
-    <p class="hero-sub">Market comparables, fair value and investment opinion — in seconds.</p>
+    <p class="hero-sub">Found a Hermès for sale? Compare it against market comparables and get a fair value and a clear buy, negotiate or pass opinion — in seconds.</p>
     <button class="discover" id="discover-btn" type="button">
-      <span>Value my bag</span>
+      <span>Check a Listing</span>
       <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1v17M1 12l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
   </div>
@@ -70,7 +71,7 @@
 
   <section class="panel form-panel" id="form-panel">
     <p class="eyebrow">Guided Valuation</p>
-    <h2>Describe your piece</h2>
+    <h2>Describe the listing</h2>
 
     <form id="bag-form">
       <div class="field-grid">
@@ -188,6 +189,7 @@
 
 <footer class="site-footer">
   <p>Luxury Alpha — a decision-support tool, not regulated financial advice.</p>
+  <p>Estimates are based on a reference comparable-sales dataset, not live market data.</p>
 </footer>
 
 <script src="app.js"></script>

@@ -15,12 +15,19 @@ async function loadOptions() {
   const res = await fetch("/api/options");
   const options = await res.json();
 
-  fillSelect(document.getElementById("f-model"), options.models);
-  fillSelect(document.getElementById("f-size"), options.sizes, 25);
+  const modelSelect = document.getElementById("f-model");
+  const sizeSelect = document.getElementById("f-size");
+
+  fillSelect(modelSelect, options.models);
+  fillSelect(sizeSelect, options.model_sizes[modelSelect.value]);
   fillSelect(document.getElementById("f-color"), options.colors);
   fillSelect(document.getElementById("f-leather"), options.leathers);
   fillSelect(document.getElementById("f-hardware"), options.hardware);
   fillSelect(document.getElementById("f-condition"), options.conditions, "Excellent");
+
+  modelSelect.addEventListener("change", () => {
+    fillSelect(sizeSelect, options.model_sizes[modelSelect.value]);
+  });
 }
 
 function setupHeroZoom() {

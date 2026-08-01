@@ -1,8 +1,9 @@
 from pathlib import Path
+from typing import Literal
 
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from . import valuation
 
@@ -12,14 +13,14 @@ app = FastAPI(title="Luxury Alpha")
 
 
 class BagInput(BaseModel):
-    model: str
+    model: Literal[tuple(valuation.KNOWN_MODELS)]
     size: int
-    color: str
-    leather: str
-    hardware: str
-    year: int
-    condition: str
-    price: float
+    color: Literal[tuple(valuation.KNOWN_COLORS)]
+    leather: Literal[tuple(valuation.KNOWN_LEATHERS)]
+    hardware: Literal[tuple(valuation.KNOWN_HARDWARE)]
+    year: int = Field(ge=1980, le=2035)
+    condition: Literal[tuple(valuation.KNOWN_CONDITIONS)]
+    price: float = Field(gt=0)
 
 
 @app.get("/api/options")
@@ -27,6 +28,7 @@ def get_options():
     return {
         "models": valuation.KNOWN_MODELS,
         "sizes": valuation.KNOWN_SIZES,
+        "model_sizes": valuation.MODEL_SIZES,
         "colors": valuation.KNOWN_COLORS,
         "leathers": valuation.KNOWN_LEATHERS,
         "hardware": valuation.KNOWN_HARDWARE,

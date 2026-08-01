@@ -5,9 +5,10 @@
   --ink-soft: #4a453d;
   --gold: #a9793f;
   --gold-soft: #c9a468;
+  --orange: #e2631a;
   --line: #6b5e4a;
-  --bag-top: #f1e4cf;
-  --bag-bottom: #dcc79f;
+  --bag-top: #f3c9a0;
+  --bag-bottom: #e2884a;
   --buy: #4c6a4f;
   --negotiate: #a9793f;
   --pass: #a34a3a;
@@ -39,6 +40,22 @@ h1, h2, .metric-value, .rec-badge {
   font-size: 0.7rem;
   color: var(--gold);
   margin: 0 0 0.75rem;
+}
+
+.hero-top .eyebrow {
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.hero-top .eyebrow::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 2px;
+  background: var(--orange);
 }
 
 /* ---------- Hero ---------- */
@@ -119,7 +136,7 @@ h1, h2, .metric-value, .rec-badge {
   transition: background 0.25s ease, transform 0.25s ease;
 }
 
-.discover:hover { background: var(--gold); transform: translateY(-2px); }
+.discover:hover { background: var(--orange); transform: translateY(-2px); }
 .discover svg { animation: bob 1.8s ease-in-out infinite; }
 
 @keyframes bob {
@@ -204,7 +221,7 @@ select:focus, input:focus {
   transition: background 0.25s ease;
 }
 
-.submit-btn:hover { background: var(--gold); }
+.submit-btn:hover { background: var(--orange); }
 .submit-btn:disabled { opacity: 0.5; cursor: wait; }
 
 .form-error {
@@ -300,7 +317,7 @@ select:focus, input:focus {
 .bar-fill {
   height: 100%;
   width: 0%;
-  background: var(--gold);
+  background: var(--orange);
   transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -370,6 +387,10 @@ td { padding: 0.6rem; border-bottom: 1px solid rgba(107, 94, 74, 0.12); }
   font-size: 0.75rem;
   color: var(--ink-soft);
   background: var(--cream);
+}
+
+.site-footer p {
+  margin: 0.3rem 0;
 }
 
 @media (max-width: 640px) {

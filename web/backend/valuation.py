@@ -3,13 +3,32 @@ from pathlib import Path
 
 DATA_PATH = Path(__file__).parent / "data" / "bags.csv"
 
-KNOWN_MODELS = ["Mini Kelly", "Kelly", "Birkin", "Constance", "Picotin"]
-KNOWN_COLORS = ["Sakura", "Gold", "Noir", "Etoupe", "Rose", "Pink", "Mauve Sylvestre", "Bleu Brume"]
+# Canonical model -> realistic retail sizes (cm). This is the single source
+# of truth for both KNOWN_MODELS/KNOWN_SIZES and the size dataset generator.
+MODEL_SIZES = {
+    "Mini Kelly": [20],
+    "Kelly": [25, 28],
+    "Birkin": [25, 30, 35],
+    "Constance": [18, 24],
+    "Picotin": [18, 22],
+    "Lindy": [26, 30],
+    "Bolide": [27, 31],
+    "Evelyne": [16, 29, 33],
+    "Garden Party": [30, 36],
+    "Roulis": [18, 23],
+    "Halzan": [25, 31],
+}
+
+KNOWN_MODELS = list(MODEL_SIZES.keys())
+KNOWN_SIZES = sorted({size for sizes in MODEL_SIZES.values() for size in sizes})
 KNOWN_LEATHERS = ["Epsom", "Togo", "Clemence", "Swift", "Chevre", "Alligator", "Crocodile", "Ostrich", "Lizard"]
 KNOWN_CONDITIONS = ["New", "Excellent", "Very Good", "Good", "Used"]
 KNOWN_HARDWARE = ["Gold", "Palladium", "Rose Gold"]
-KNOWN_SIZES = [18, 20, 22, 24, 25, 28, 30, 35, 40]
 EXOTIC_LEATHERS = ["Alligator", "Crocodile", "Ostrich", "Lizard"]
+
+# Liquidity tiers used by calculate_liquidity_score.
+HIGH_LIQUIDITY_MODELS = ["Birkin", "Kelly", "Mini Kelly"]
+MID_LIQUIDITY_MODELS = ["Lindy", "Constance", "Evelyne", "Garden Party"]
 
 COLORS = {
     "Sakura": {"premium": 15, "rarity": 95, "collector": 100, "liquidity": 95},
@@ -20,7 +39,26 @@ COLORS = {
     "Pink": {"premium": 8, "rarity": 70, "collector": 75, "liquidity": 85},
     "Mauve Sylvestre": {"premium": 12, "rarity": 88, "collector": 90, "liquidity": 70},
     "Bleu Brume": {"premium": 10, "rarity": 85, "collector": 88, "liquidity": 72},
+    "Craie": {"premium": 5, "rarity": 60, "collector": 65, "liquidity": 90},
+    "Blanc": {"premium": 3, "rarity": 50, "collector": 55, "liquidity": 80},
+    "Bleu Nuit": {"premium": 4, "rarity": 55, "collector": 60, "liquidity": 92},
+    "Bleu Zellige": {"premium": 9, "rarity": 78, "collector": 80, "liquidity": 75},
+    "Bleu Saphir": {"premium": 7, "rarity": 65, "collector": 70, "liquidity": 80},
+    "Vert Anis": {"premium": 11, "rarity": 86, "collector": 85, "liquidity": 65},
+    "Vert Fonce": {"premium": 6, "rarity": 62, "collector": 68, "liquidity": 82},
+    "Rouge H": {"premium": 10, "rarity": 72, "collector": 85, "liquidity": 90},
+    "Rouge Casaque": {"premium": 9, "rarity": 68, "collector": 78, "liquidity": 85},
+    "Anemone": {"premium": 10, "rarity": 80, "collector": 82, "liquidity": 78},
+    "Gris Etain": {"premium": 5, "rarity": 58, "collector": 60, "liquidity": 85},
+    "Chocolat": {"premium": 5, "rarity": 60, "collector": 65, "liquidity": 80},
+    "Havane": {"premium": 6, "rarity": 65, "collector": 68, "liquidity": 82},
+    "Prune": {"premium": 9, "rarity": 74, "collector": 78, "liquidity": 68},
+    "Jaune Ambre": {"premium": 13, "rarity": 90, "collector": 88, "liquidity": 55},
+    "Orange": {"premium": 14, "rarity": 92, "collector": 92, "liquidity": 60},
+    "Vert Bosphore": {"premium": 8, "rarity": 72, "collector": 74, "liquidity": 68},
 }
+
+KNOWN_COLORS = list(COLORS.keys())
 
 
 def apply_color_premium(fair_value, bag):
@@ -112,15 +150,18 @@ def calculate_rarity_score(bag):
         score += 30
     if bag["model"] == "Mini Kelly":
         score += 15
-    if bag["color"] in ["Sakura", "Mauve Sylvestre", "Bleu Brume"]:
+    color_info = COLORS.get(bag["color"])
+    if color_info and color_info["rarity"] >= 80:
         score += 15
     return min(score, 100)
 
 
 def calculate_liquidity_score(bag):
     score = 50
-    if bag["model"] in ["Mini Kelly", "Birkin", "Kelly"]:
+    if bag["model"] in HIGH_LIQUIDITY_MODELS:
         score += 20
+    elif bag["model"] in MID_LIQUIDITY_MODELS:
+        score += 10
     if bag["size"] in [20, 25]:
         score += 15
     if bag["condition"] in ["New", "Excellent"]:

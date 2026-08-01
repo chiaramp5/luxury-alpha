@@ -1,701 +1,1181 @@
 model,size,color,leather,hardware,year,condition,price
-Birkin,25,Noir,Clemence,Rose Gold,2018,Used,11800
-Birkin,25,Gold,Epsom,Palladium,2018,Used,12050
-Birkin,25,Gold,Togo,Palladium,2018,Used,12050
-Birkin,25,Gold,Epsom,Rose Gold,2021,Used,13200
-Birkin,25,Bleu Brume,Togo,Rose Gold,2021,Used,13350
-Birkin,25,Pink,Togo,Rose Gold,2023,Used,13400
-Birkin,25,Pink,Epsom,Rose Gold,2022,Used,13550
-Birkin,25,Mauve Sylvestre,Swift,Palladium,2019,Used,13800
-Birkin,25,Sakura,Clemence,Gold,2025,Used,14250
-Birkin,25,Bleu Brume,Clemence,Palladium,2021,Good,14650
-Birkin,25,Sakura,Swift,Palladium,2023,Used,14650
-Birkin,25,Sakura,Chevre,Gold,2017,Used,14850
-Birkin,25,Sakura,Chevre,Gold,2023,Used,14900
-Birkin,25,Gold,Togo,Palladium,2021,Good,15100
-Birkin,25,Gold,Togo,Gold,2022,Good,15150
-Birkin,25,Etoupe,Clemence,Gold,2023,Good,15550
-Birkin,25,Gold,Epsom,Gold,2022,Good,15700
-Birkin,25,Bleu Brume,Togo,Gold,2023,Good,15950
-Birkin,25,Mauve Sylvestre,Chevre,Rose Gold,2021,Used,16100
-Birkin,25,Rose,Epsom,Rose Gold,2019,Good,16250
-Birkin,25,Sakura,Swift,Palladium,2020,Good,16300
-Birkin,25,Pink,Swift,Gold,2020,Good,16750
-Birkin,25,Etoupe,Swift,Rose Gold,2021,Good,16750
-Birkin,25,Bleu Brume,Togo,Palladium,2019,Very Good,16900
-Birkin,25,Rose,Chevre,Palladium,2023,Good,17050
-Birkin,25,Pink,Togo,Rose Gold,2018,Very Good,17150
-Birkin,25,Rose,Chevre,Gold,2020,Good,17200
-Birkin,25,Mauve Sylvestre,Swift,Rose Gold,2018,Good,17250
-Birkin,25,Sakura,Chevre,Gold,2022,Good,17700
-Birkin,25,Mauve Sylvestre,Togo,Gold,2021,Very Good,17800
-Birkin,25,Etoupe,Clemence,Palladium,2019,Excellent,17850
-Birkin,25,Noir,Togo,Rose Gold,2017,Very Good,18000
-Birkin,25,Etoupe,Epsom,Palladium,2023,Very Good,18100
-Birkin,25,Etoupe,Epsom,Gold,2023,Very Good,18500
-Birkin,25,Bleu Brume,Chevre,Rose Gold,2022,Good,18550
-Birkin,25,Noir,Clemence,Rose Gold,2025,Very Good,18600
-Birkin,25,Etoupe,Togo,Palladium,2022,Very Good,18650
-Birkin,25,Pink,Togo,Gold,2024,Very Good,19150
-Birkin,25,Etoupe,Togo,Rose Gold,2024,Very Good,19350
-Birkin,25,Etoupe,Epsom,Palladium,2020,Excellent,19450
-Birkin,25,Gold,Clemence,Gold,2025,Excellent,19900
-Birkin,25,Noir,Swift,Gold,2018,Excellent,19950
-Birkin,25,Sakura,Epsom,Gold,2024,Very Good,19950
-Birkin,25,Bleu Brume,Togo,Rose Gold,2018,Excellent,20000
-Birkin,25,Noir,Epsom,Rose Gold,2017,Excellent,20300
-Birkin,25,Etoupe,Clemence,Rose Gold,2023,Excellent,20450
-Birkin,25,Etoupe,Epsom,Rose Gold,2024,Very Good,20450
-Birkin,25,Rose,Swift,Rose Gold,2025,Very Good,20900
-Birkin,25,Sakura,Chevre,Rose Gold,2017,Very Good,20900
-Birkin,25,Bleu Brume,Epsom,Rose Gold,2025,Very Good,21000
-Birkin,25,Bleu Brume,Epsom,Palladium,2024,Excellent,21550
-Birkin,25,Sakura,Togo,Gold,2019,New,21950
-Birkin,25,Rose,Clemence,Gold,2019,New,22250
-Birkin,25,Rose,Epsom,Rose Gold,2025,Excellent,22300
-Birkin,25,Bleu Brume,Chevre,Gold,2020,Excellent,22700
-Birkin,25,Noir,Epsom,Gold,2021,New,23150
-Birkin,25,Etoupe,Togo,Rose Gold,2020,New,23250
-Birkin,25,Pink,Swift,Palladium,2025,Excellent,23350
-Birkin,25,Pink,Clemence,Gold,2025,New,23800
-Birkin,25,Pink,Swift,Palladium,2023,New,24350
-Birkin,25,Gold,Clemence,Rose Gold,2024,New,24500
-Birkin,25,Gold,Chevre,Palladium,2024,New,24750
+Birkin,25,Bleu Brume,Togo,Palladium,2018,Used,12400
+Birkin,25,Bleu Saphir,Swift,Palladium,2017,Used,12850
+Birkin,25,Rouge Casaque,Togo,Palladium,2020,Used,12950
+Birkin,25,Craie,Clemence,Palladium,2022,Used,12950
+Birkin,25,Rouge H,Togo,Rose Gold,2021,Used,13350
+Birkin,25,Bleu Zellige,Togo,Rose Gold,2023,Used,13450
+Birkin,25,Vert Anis,Epsom,Rose Gold,2020,Used,13550
+Birkin,25,Vert Anis,Swift,Palladium,2019,Used,13750
+Birkin,25,Chocolat,Swift,Palladium,2025,Used,13950
+Birkin,25,Etoupe,Swift,Palladium,2023,Used,14050
+Birkin,25,Bleu Brume,Epsom,Palladium,2017,Good,14500
+Birkin,25,Chocolat,Epsom,Gold,2019,Good,14700
+Birkin,25,Chocolat,Swift,Gold,2024,Used,14750
+Birkin,25,Prune,Epsom,Palladium,2019,Good,15450
+Birkin,25,Anemone,Chevre,Palladium,2024,Used,15800
+Birkin,25,Gris Etain,Swift,Gold,2020,Good,16150
+Birkin,25,Blanc,Swift,Rose Gold,2018,Good,16750
+Birkin,25,Prune,Clemence,Palladium,2025,Good,16800
+Birkin,25,Bleu Saphir,Epsom,Gold,2017,Very Good,16950
+Birkin,25,Vert Fonce,Chevre,Gold,2018,Good,17000
+Birkin,25,Prune,Epsom,Gold,2022,Good,17050
+Birkin,25,Orange,Togo,Palladium,2017,Very Good,17050
+Birkin,25,Vert Anis,Swift,Rose Gold,2018,Good,17650
+Birkin,25,Anemone,Togo,Palladium,2018,Very Good,17750
+Birkin,25,Gold,Chevre,Rose Gold,2021,Good,17800
+Birkin,25,Rouge Casaque,Togo,Rose Gold,2018,Very Good,18300
+Birkin,25,Orange,Togo,Gold,2021,Very Good,18400
+Birkin,25,Blanc,Swift,Palladium,2019,Very Good,18500
+Birkin,25,Jaune Ambre,Chevre,Rose Gold,2023,Good,18650
+Birkin,25,Rose,Chevre,Gold,2019,Very Good,18750
+Birkin,25,Anemone,Epsom,Palladium,2023,Very Good,18900
+Birkin,25,Etoupe,Epsom,Palladium,2023,Very Good,18950
+Birkin,25,Gris Etain,Clemence,Gold,2025,Excellent,20000
+Birkin,25,Bleu Brume,Chevre,Gold,2017,Very Good,20100
+Birkin,25,Jaune Ambre,Epsom,Palladium,2020,Excellent,20450
+Birkin,25,Havane,Swift,Palladium,2021,Excellent,20550
+Birkin,25,Craie,Swift,Rose Gold,2025,Very Good,20600
+Birkin,25,Bleu Nuit,Epsom,Gold,2018,New,20700
+Birkin,25,Mauve Sylvestre,Clemence,Gold,2025,Excellent,20700
+Birkin,25,Rose,Epsom,Rose Gold,2017,Excellent,20800
+Birkin,25,Prune,Epsom,Rose Gold,2019,Excellent,20850
+Birkin,25,Pink,Swift,Rose Gold,2019,Excellent,20900
+Birkin,25,Noir,Clemence,Rose Gold,2021,New,21750
+Birkin,25,Craie,Epsom,Rose Gold,2025,Excellent,22000
+Birkin,25,Sakura,Clemence,Palladium,2022,New,22650
+Birkin,25,Vert Bosphore,Clemence,Rose Gold,2022,New,22750
+Birkin,25,Bleu Saphir,Epsom,Gold,2023,New,23200
+Birkin,25,Havane,Chevre,Rose Gold,2022,Excellent,23500
+Birkin,25,Noir,Swift,Gold,2019,New,23500
+Birkin,25,Rouge Casaque,Togo,Gold,2025,New,24000
+Birkin,25,Gris Etain,Clemence,Gold,2025,New,24100
+Birkin,25,Gris Etain,Togo,Gold,2024,New,24200
+Birkin,25,Blanc,Chevre,Palladium,2022,New,24300
+Birkin,25,Orange,Swift,Gold,2025,Excellent,24700
+Birkin,25,Rouge Casaque,Swift,Gold,2022,New,25150
 Birkin,25,Sakura,Togo,Rose Gold,2024,New,25450
-Birkin,25,Mauve Sylvestre,Chevre,Palladium,2025,New,27700
-Birkin,25,Sakura,Swift,Rose Gold,2024,New,28550
-Birkin,25,Gold,Lizard,Gold,2019,Good,58000
-Birkin,25,Bleu Brume,Lizard,Palladium,2023,Good,64550
-Birkin,25,Pink,Crocodile,Palladium,2023,Good,77900
-Birkin,25,Mauve Sylvestre,Alligator,Palladium,2022,Very Good,81300
-Birkin,25,Pink,Lizard,Palladium,2017,New,82800
-Birkin,25,Bleu Brume,Lizard,Palladium,2025,Excellent,83450
-Birkin,25,Noir,Crocodile,Rose Gold,2017,Very Good,87000
-Birkin,25,Bleu Brume,Lizard,Palladium,2023,New,91350
-Birkin,25,Rose,Alligator,Gold,2025,Excellent,94400
-Birkin,30,Mauve Sylvestre,Clemence,Gold,2018,Used,11000
-Birkin,30,Pink,Clemence,Palladium,2025,Used,11850
-Birkin,30,Mauve Sylvestre,Clemence,Palladium,2025,Used,12100
-Birkin,30,Gold,Epsom,Palladium,2023,Used,12200
-Birkin,30,Rose,Chevre,Gold,2018,Used,12850
-Birkin,30,Gold,Swift,Palladium,2025,Used,12900
-Birkin,30,Bleu Brume,Swift,Gold,2022,Used,12900
-Birkin,30,Gold,Chevre,Gold,2023,Used,12950
-Birkin,30,Bleu Brume,Swift,Palladium,2025,Used,13200
+Birkin,25,Etoupe,Chevre,Gold,2022,New,25550
+Birkin,25,Jaune Ambre,Chevre,Gold,2021,New,25600
+Birkin,25,Anemone,Chevre,Gold,2023,New,25650
+Birkin,25,Chocolat,Chevre,Rose Gold,2025,New,28550
+Birkin,25,Pink,Ostrich,Rose Gold,2025,Very Good,64150
+Birkin,25,Bleu Saphir,Ostrich,Rose Gold,2025,Very Good,68700
+Birkin,25,Pink,Ostrich,Gold,2022,New,73550
+Birkin,25,Bleu Nuit,Lizard,Palladium,2017,New,81200
+Birkin,25,Jaune Ambre,Lizard,Palladium,2025,Excellent,83200
+Birkin,25,Gris Etain,Crocodile,Rose Gold,2017,Very Good,88950
+Birkin,25,Rouge Casaque,Alligator,Gold,2025,Excellent,96150
+Birkin,30,Pink,Epsom,Palladium,2021,Used,11300
+Birkin,30,Etoupe,Epsom,Palladium,2017,Used,11550
+Birkin,30,Bleu Zellige,Clemence,Palladium,2025,Used,11900
+Birkin,30,Vert Bosphore,Togo,Rose Gold,2022,Used,12350
+Birkin,30,Etoupe,Swift,Palladium,2022,Used,12800
+Birkin,30,Bleu Zellige,Chevre,Gold,2023,Used,12950
+Birkin,30,Chocolat,Swift,Palladium,2025,Used,13500
+Birkin,30,Anemone,Swift,Rose Gold,2020,Used,13500
+Birkin,30,Sakura,Swift,Rose Gold,2021,Used,13800
+Birkin,30,Bleu Nuit,Swift,Palladium,2017,Good,13900
+Birkin,30,Anemone,Swift,Gold,2018,Good,14000
+Birkin,30,Rouge Casaque,Clemence,Palladium,2017,Very Good,14050
 Birkin,30,Sakura,Chevre,Rose Gold,2021,Used,14100
-Birkin,30,Noir,Swift,Palladium,2020,Good,14100
-Birkin,30,Gold,Togo,Palladium,2018,Very Good,14150
-Birkin,30,Etoupe,Clemence,Palladium,2017,Very Good,14200
-Birkin,30,Bleu Brume,Clemence,Gold,2017,Very Good,14450
-Birkin,30,Noir,Chevre,Gold,2019,Good,14550
-Birkin,30,Pink,Togo,Gold,2023,Good,14550
-Birkin,30,Noir,Epsom,Palladium,2022,Good,14550
-Birkin,30,Sakura,Togo,Rose Gold,2021,Good,14800
-Birkin,30,Etoupe,Clemence,Rose Gold,2017,Very Good,15050
-Birkin,30,Noir,Swift,Rose Gold,2019,Good,15250
-Birkin,30,Etoupe,Chevre,Palladium,2019,Good,15300
-Birkin,30,Pink,Clemence,Rose Gold,2025,Good,15400
-Birkin,30,Etoupe,Chevre,Gold,2022,Good,15500
-Birkin,30,Etoupe,Clemence,Gold,2017,Excellent,15700
-Birkin,30,Rose,Epsom,Gold,2019,Very Good,16100
-Birkin,30,Sakura,Togo,Rose Gold,2024,Good,16450
-Birkin,30,Rose,Epsom,Gold,2023,Very Good,16600
-Birkin,30,Rose,Swift,Rose Gold,2017,Very Good,16800
-Birkin,30,Bleu Brume,Togo,Gold,2023,Very Good,17100
-Birkin,30,Sakura,Epsom,Palladium,2018,Excellent,17100
-Birkin,30,Etoupe,Swift,Palladium,2023,Very Good,17450
-Birkin,30,Mauve Sylvestre,Chevre,Rose Gold,2022,Good,17500
-Birkin,30,Mauve Sylvestre,Chevre,Gold,2017,Very Good,17650
-Birkin,30,Bleu Brume,Clemence,Rose Gold,2023,Very Good,17750
-Birkin,30,Pink,Swift,Palladium,2023,Very Good,18000
-Birkin,30,Bleu Brume,Togo,Palladium,2021,Excellent,18400
-Birkin,30,Mauve Sylvestre,Clemence,Rose Gold,2019,Excellent,18400
-Birkin,30,Sakura,Swift,Palladium,2023,Very Good,18500
-Birkin,30,Mauve Sylvestre,Togo,Gold,2017,New,18750
-Birkin,30,Mauve Sylvestre,Togo,Rose Gold,2023,Excellent,18750
-Birkin,30,Sakura,Chevre,Palladium,2025,Very Good,18800
-Birkin,30,Mauve Sylvestre,Epsom,Gold,2021,Excellent,19250
-Birkin,30,Rose,Epsom,Rose Gold,2018,Excellent,19300
-Birkin,30,Noir,Clemence,Gold,2021,New,19350
-Birkin,30,Noir,Clemence,Palladium,2025,New,19400
-Birkin,30,Rose,Epsom,Rose Gold,2025,Excellent,19550
-Birkin,30,Bleu Brume,Togo,Rose Gold,2024,Excellent,20400
-Birkin,30,Gold,Togo,Rose Gold,2020,New,20400
-Birkin,30,Noir,Chevre,Rose Gold,2018,New,21100
-Birkin,30,Mauve Sylvestre,Clemence,Gold,2025,New,21400
-Birkin,30,Bleu Brume,Epsom,Palladium,2025,New,21650
-Birkin,30,Gold,Chevre,Rose Gold,2023,Excellent,21850
-Birkin,30,Pink,Epsom,Rose Gold,2025,New,21900
-Birkin,30,Bleu Brume,Clemence,Rose Gold,2022,New,22050
-Birkin,30,Gold,Chevre,Rose Gold,2021,New,22550
-Birkin,30,Sakura,Togo,Rose Gold,2024,New,23500
-Birkin,30,Mauve Sylvestre,Lizard,Palladium,2017,Used,42700
-Birkin,30,Pink,Crocodile,Palladium,2017,Used,57200
-Birkin,30,Mauve Sylvestre,Lizard,Gold,2017,Very Good,59400
-Birkin,30,Mauve Sylvestre,Ostrich,Palladium,2018,New,63200
-Birkin,30,Rose,Lizard,Gold,2022,Very Good,66150
-Birkin,30,Gold,Crocodile,Gold,2025,Good,76650
-Birkin,30,Mauve Sylvestre,Alligator,Palladium,2022,Very Good,78100
-Birkin,30,Noir,Alligator,Palladium,2019,New,84100
-Birkin,30,Rose,Lizard,Gold,2024,New,86200
-Birkin,30,Mauve Sylvestre,Alligator,Rose Gold,2025,Excellent,92700
-Birkin,30,Noir,Crocodile,Rose Gold,2023,New,110150
-Birkin,35,Bleu Brume,Epsom,Palladium,2018,Used,9600
-Birkin,35,Etoupe,Clemence,Gold,2018,Used,9600
-Birkin,35,Gold,Togo,Palladium,2018,Used,9650
-Birkin,35,Rose,Epsom,Palladium,2018,Used,10300
-Birkin,35,Sakura,Togo,Palladium,2018,Used,10450
-Birkin,35,Bleu Brume,Epsom,Palladium,2021,Used,10950
-Birkin,35,Sakura,Swift,Palladium,2017,Used,11100
-Birkin,35,Etoupe,Chevre,Gold,2017,Used,11150
-Birkin,35,Mauve Sylvestre,Togo,Rose Gold,2024,Used,11550
-Birkin,35,Noir,Swift,Rose Gold,2025,Used,11900
-Birkin,35,Sakura,Epsom,Palladium,2017,Good,12150
-Birkin,35,Bleu Brume,Clemence,Gold,2024,Good,12400
-Birkin,35,Sakura,Swift,Palladium,2019,Good,12700
-Birkin,35,Pink,Togo,Gold,2021,Good,13000
-Birkin,35,Sakura,Clemence,Rose Gold,2020,Good,13050
-Birkin,35,Bleu Brume,Clemence,Palladium,2019,Very Good,13250
-Birkin,35,Etoupe,Clemence,Palladium,2019,Very Good,13350
-Birkin,35,Rose,Togo,Rose Gold,2024,Good,13850
-Birkin,35,Rose,Chevre,Palladium,2024,Good,14050
-Birkin,35,Rose,Clemence,Gold,2019,Very Good,14200
-Birkin,35,Bleu Brume,Clemence,Gold,2019,Very Good,14300
-Birkin,35,Bleu Brume,Epsom,Palladium,2020,Very Good,14400
-Birkin,35,Bleu Brume,Clemence,Palladium,2025,Very Good,14800
-Birkin,35,Rose,Clemence,Rose Gold,2024,Very Good,14900
-Birkin,35,Bleu Brume,Chevre,Palladium,2020,Very Good,15000
-Birkin,35,Sakura,Togo,Gold,2017,Excellent,15250
-Birkin,35,Rose,Chevre,Palladium,2018,Very Good,15300
-Birkin,35,Gold,Chevre,Palladium,2018,Excellent,15650
-Birkin,35,Mauve Sylvestre,Togo,Rose Gold,2020,Very Good,15700
-Birkin,35,Gold,Clemence,Gold,2022,Excellent,15750
-Birkin,35,Noir,Swift,Rose Gold,2022,Very Good,15850
-Birkin,35,Noir,Swift,Rose Gold,2021,Very Good,15900
-Birkin,35,Bleu Brume,Clemence,Gold,2022,Excellent,15950
-Birkin,35,Mauve Sylvestre,Chevre,Rose Gold,2020,Very Good,16050
-Birkin,35,Bleu Brume,Epsom,Palladium,2022,Excellent,16050
-Birkin,35,Etoupe,Togo,Rose Gold,2024,Excellent,16900
-Birkin,35,Gold,Swift,Palladium,2020,New,17550
-Birkin,35,Etoupe,Chevre,Gold,2025,Very Good,17650
-Birkin,35,Noir,Swift,Rose Gold,2019,Excellent,17750
-Birkin,35,Mauve Sylvestre,Togo,Gold,2019,New,17850
-Birkin,35,Sakura,Clemence,Gold,2018,New,18050
-Birkin,35,Mauve Sylvestre,Togo,Palladium,2025,New,18200
-Birkin,35,Rose,Togo,Rose Gold,2018,New,18200
-Birkin,35,Bleu Brume,Epsom,Rose Gold,2020,New,18300
-Birkin,35,Sakura,Clemence,Rose Gold,2020,New,18800
-Birkin,35,Etoupe,Togo,Rose Gold,2024,New,19900
-Birkin,35,Gold,Chevre,Rose Gold,2021,New,20200
-Birkin,35,Rose,Lizard,Rose Gold,2022,Used,40650
-Birkin,35,Etoupe,Ostrich,Gold,2020,Excellent,52250
-Birkin,35,Noir,Alligator,Rose Gold,2018,Good,56400
-Birkin,35,Bleu Brume,Alligator,Palladium,2024,Good,59900
-Birkin,35,Noir,Lizard,Gold,2019,Excellent,60150
-Birkin,35,Gold,Lizard,Gold,2017,New,62400
-Birkin,35,Etoupe,Lizard,Palladium,2025,Excellent,63750
-Birkin,35,Etoupe,Alligator,Palladium,2024,Very Good,66750
-Birkin,35,Gold,Crocodile,Rose Gold,2025,Good,68300
-Birkin,35,Bleu Brume,Alligator,Palladium,2020,Excellent,70400
-Birkin,35,Etoupe,Crocodile,Rose Gold,2020,Very Good,71650
-Birkin,35,Rose,Crocodile,Palladium,2020,Excellent,76850
-Constance,18,Noir,Togo,Gold,2017,Used,5800
-Constance,18,Rose,Swift,Palladium,2018,Used,6550
-Constance,18,Sakura,Clemence,Rose Gold,2017,Used,6600
-Constance,18,Sakura,Togo,Rose Gold,2019,Used,6650
-Constance,18,Sakura,Epsom,Gold,2019,Used,6850
-Constance,18,Etoupe,Clemence,Rose Gold,2025,Used,6950
-Constance,18,Sakura,Swift,Palladium,2022,Used,6950
-Constance,18,Gold,Chevre,Gold,2021,Used,7100
-Constance,18,Noir,Swift,Gold,2021,Used,7200
-Constance,18,Rose,Chevre,Palladium,2020,Used,7200
-Constance,18,Rose,Clemence,Palladium,2018,Good,7250
-Constance,18,Sakura,Swift,Gold,2025,Used,7400
-Constance,18,Gold,Epsom,Rose Gold,2023,Used,7400
-Constance,18,Gold,Chevre,Rose Gold,2021,Used,7600
-Constance,18,Bleu Brume,Epsom,Rose Gold,2023,Used,7600
-Constance,18,Rose,Epsom,Palladium,2020,Good,7650
-Constance,18,Rose,Swift,Rose Gold,2022,Used,7750
-Constance,18,Rose,Togo,Rose Gold,2018,Good,7750
-Constance,18,Sakura,Clemence,Palladium,2024,Good,8200
-Constance,18,Pink,Epsom,Rose Gold,2020,Good,8450
-Constance,18,Sakura,Epsom,Gold,2023,Good,8700
-Constance,18,Mauve Sylvestre,Swift,Palladium,2024,Good,8700
-Constance,18,Pink,Chevre,Rose Gold,2021,Good,8750
-Constance,18,Pink,Swift,Gold,2018,Very Good,8900
-Constance,18,Gold,Togo,Gold,2025,Very Good,9100
-Constance,18,Sakura,Swift,Palladium,2019,Very Good,9150
-Constance,18,Rose,Clemence,Palladium,2024,Very Good,9300
-Constance,18,Etoupe,Togo,Rose Gold,2020,Very Good,9400
-Constance,18,Mauve Sylvestre,Togo,Rose Gold,2020,Very Good,9500
-Constance,18,Noir,Togo,Palladium,2019,Excellent,9550
-Constance,18,Noir,Swift,Palladium,2025,Very Good,9600
-Constance,18,Etoupe,Chevre,Gold,2021,Very Good,9850
-Constance,18,Bleu Brume,Chevre,Palladium,2019,Very Good,9850
-Constance,18,Noir,Togo,Rose Gold,2018,Excellent,10000
-Constance,18,Etoupe,Togo,Rose Gold,2021,Excellent,10050
-Constance,18,Sakura,Clemence,Palladium,2023,Excellent,10150
-Constance,18,Mauve Sylvestre,Swift,Palladium,2020,Excellent,10200
-Constance,18,Sakura,Togo,Palladium,2021,Excellent,10400
-Constance,18,Mauve Sylvestre,Clemence,Palladium,2019,New,10700
-Constance,18,Rose,Clemence,Palladium,2020,New,10800
-Constance,18,Etoupe,Togo,Palladium,2023,New,11050
-Constance,18,Noir,Togo,Gold,2025,New,11200
-Constance,18,Pink,Swift,Palladium,2022,Excellent,11250
-Constance,18,Sakura,Epsom,Palladium,2025,Excellent,11350
-Constance,18,Gold,Swift,Gold,2018,New,11450
-Constance,18,Bleu Brume,Swift,Palladium,2019,New,11500
-Constance,18,Sakura,Chevre,Palladium,2022,Excellent,11800
-Constance,18,Mauve Sylvestre,Togo,Rose Gold,2019,New,11800
-Constance,18,Gold,Togo,Rose Gold,2023,New,11900
-Constance,18,Gold,Swift,Rose Gold,2019,New,12050
-Constance,18,Sakura,Chevre,Gold,2018,New,12550
-Constance,18,Rose,Swift,Gold,2023,New,12700
-Constance,18,Rose,Chevre,Palladium,2025,New,13400
-Constance,18,Pink,Ostrich,Rose Gold,2021,Used,22950
-Constance,18,Etoupe,Alligator,Gold,2021,Used,30100
-Constance,18,Rose,Ostrich,Gold,2025,Very Good,32050
-Constance,18,Bleu Brume,Crocodile,Palladium,2023,Used,32900
-Constance,18,Bleu Brume,Alligator,Gold,2018,Good,35900
-Constance,18,Etoupe,Alligator,Palladium,2024,Good,36950
-Constance,18,Pink,Lizard,Gold,2024,Excellent,39550
-Constance,18,Pink,Alligator,Gold,2019,Excellent,44300
-Constance,18,Bleu Brume,Crocodile,Rose Gold,2022,Good,44500
-Constance,18,Pink,Crocodile,Gold,2021,Very Good,45950
-Constance,18,Bleu Brume,Lizard,Rose Gold,2024,New,48100
-Constance,18,Etoupe,Alligator,Gold,2024,Excellent,49400
-Constance,18,Mauve Sylvestre,Crocodile,Rose Gold,2025,New,64950
-Constance,24,Etoupe,Togo,Palladium,2018,Used,7550
-Constance,24,Gold,Epsom,Palladium,2019,Used,7750
-Constance,24,Noir,Togo,Rose Gold,2018,Used,8000
-Constance,24,Etoupe,Epsom,Rose Gold,2017,Used,8350
-Constance,24,Pink,Togo,Rose Gold,2019,Used,8600
-Constance,24,Noir,Togo,Gold,2023,Used,8650
-Constance,24,Mauve Sylvestre,Epsom,Rose Gold,2020,Used,8900
-Constance,24,Rose,Togo,Gold,2023,Used,8900
-Constance,24,Gold,Swift,Gold,2022,Used,9250
-Constance,24,Sakura,Chevre,Gold,2018,Used,9400
-Constance,24,Etoupe,Chevre,Rose Gold,2023,Used,9450
-Constance,24,Etoupe,Togo,Rose Gold,2019,Good,9650
-Constance,24,Pink,Clemence,Gold,2020,Good,9750
-Constance,24,Rose,Chevre,Palladium,2022,Used,9800
-Constance,24,Noir,Chevre,Gold,2017,Good,9850
-Constance,24,Pink,Epsom,Palladium,2021,Good,10050
-Constance,24,Rose,Chevre,Rose Gold,2023,Used,10400
-Constance,24,Noir,Clemence,Rose Gold,2022,Good,10500
-Constance,24,Gold,Clemence,Palladium,2021,Very Good,10550
-Constance,24,Sakura,Swift,Gold,2019,Good,10600
-Constance,24,Gold,Epsom,Gold,2022,Good,10700
-Constance,24,Pink,Clemence,Rose Gold,2018,Very Good,10900
-Constance,24,Mauve Sylvestre,Chevre,Palladium,2020,Good,10900
-Constance,24,Sakura,Swift,Palladium,2024,Good,10950
-Constance,24,Gold,Epsom,Palladium,2020,Very Good,11200
-Constance,24,Bleu Brume,Clemence,Palladium,2023,Very Good,11300
-Constance,24,Mauve Sylvestre,Swift,Palladium,2023,Good,11350
-Constance,24,Etoupe,Chevre,Gold,2022,Good,11450
-Constance,24,Etoupe,Chevre,Palladium,2017,Very Good,11500
-Constance,24,Noir,Swift,Rose Gold,2025,Good,11500
-Constance,24,Mauve Sylvestre,Togo,Palladium,2020,Very Good,11700
-Constance,24,Mauve Sylvestre,Togo,Rose Gold,2017,Very Good,11700
-Constance,24,Sakura,Chevre,Gold,2019,Good,11700
-Constance,24,Mauve Sylvestre,Chevre,Palladium,2019,Very Good,12200
-Constance,24,Mauve Sylvestre,Swift,Palladium,2020,Very Good,12850
-Constance,24,Pink,Chevre,Palladium,2019,Very Good,12900
-Constance,24,Etoupe,Chevre,Rose Gold,2021,Very Good,13300
-Constance,24,Etoupe,Epsom,Gold,2024,Excellent,13400
-Constance,24,Bleu Brume,Swift,Palladium,2017,Excellent,13450
-Constance,24,Noir,Clemence,Palladium,2022,New,13600
-Constance,24,Bleu Brume,Epsom,Rose Gold,2024,Excellent,14300
-Constance,24,Noir,Clemence,Palladium,2025,New,14550
-Constance,24,Gold,Chevre,Rose Gold,2020,Excellent,14650
-Constance,24,Mauve Sylvestre,Chevre,Rose Gold,2017,Excellent,15000
-Constance,24,Gold,Swift,Palladium,2023,New,15200
-Constance,24,Bleu Brume,Epsom,Rose Gold,2019,New,15400
-Constance,24,Etoupe,Clemence,Rose Gold,2024,New,15600
-Constance,24,Bleu Brume,Chevre,Palladium,2024,New,15950
-Constance,24,Bleu Brume,Ostrich,Rose Gold,2025,Good,35200
-Constance,24,Sakura,Alligator,Palladium,2022,Used,40200
-Constance,24,Noir,Alligator,Palladium,2024,Used,40300
-Constance,24,Gold,Lizard,Palladium,2022,Excellent,47000
-Constance,24,Noir,Lizard,Rose Gold,2019,New,57600
-Constance,24,Pink,Crocodile,Gold,2022,Very Good,58700
-Kelly,25,Noir,Togo,Rose Gold,2019,Used,10000
-Kelly,25,Sakura,Clemence,Palladium,2021,Used,10050
-Kelly,25,Mauve Sylvestre,Clemence,Gold,2019,Used,10050
-Kelly,25,Rose,Epsom,Gold,2017,Used,10150
-Kelly,25,Mauve Sylvestre,Clemence,Gold,2017,Used,10150
-Kelly,25,Bleu Brume,Epsom,Gold,2023,Used,10650
-Kelly,25,Bleu Brume,Clemence,Rose Gold,2023,Used,10700
-Kelly,25,Mauve Sylvestre,Chevre,Palladium,2019,Used,10850
-Kelly,25,Pink,Epsom,Gold,2020,Used,10900
-Kelly,25,Sakura,Clemence,Gold,2025,Used,11050
-Kelly,25,Etoupe,Swift,Rose Gold,2021,Used,11100
-Kelly,25,Mauve Sylvestre,Epsom,Palladium,2025,Used,11100
-Kelly,25,Mauve Sylvestre,Epsom,Palladium,2024,Used,11200
-Kelly,25,Rose,Togo,Palladium,2017,Good,11250
-Kelly,25,Pink,Chevre,Gold,2022,Used,11400
-Kelly,25,Pink,Chevre,Gold,2019,Used,11650
-Kelly,25,Bleu Brume,Swift,Gold,2024,Used,11950
-Kelly,25,Etoupe,Chevre,Rose Gold,2024,Used,12600
-Kelly,25,Bleu Brume,Epsom,Gold,2021,Good,12950
-Kelly,25,Gold,Togo,Palladium,2017,Very Good,13000
-Kelly,25,Rose,Clemence,Gold,2018,Very Good,13150
-Kelly,25,Pink,Togo,Palladium,2017,Very Good,13150
-Kelly,25,Noir,Epsom,Rose Gold,2023,Good,13250
-Kelly,25,Pink,Swift,Rose Gold,2020,Good,13400
-Kelly,25,Bleu Brume,Clemence,Gold,2017,Very Good,13450
-Kelly,25,Mauve Sylvestre,Swift,Palladium,2023,Good,13650
-Kelly,25,Pink,Chevre,Rose Gold,2020,Good,13800
-Kelly,25,Etoupe,Togo,Rose Gold,2025,Good,13950
-Kelly,25,Pink,Chevre,Gold,2025,Good,14150
-Kelly,25,Bleu Brume,Clemence,Rose Gold,2018,Very Good,14300
-Kelly,25,Rose,Togo,Palladium,2020,Very Good,14350
-Kelly,25,Etoupe,Clemence,Gold,2021,Excellent,14750
-Kelly,25,Gold,Swift,Palladium,2017,Excellent,15200
-Kelly,25,Mauve Sylvestre,Togo,Rose Gold,2022,Very Good,15400
-Kelly,25,Gold,Chevre,Rose Gold,2018,Very Good,15550
-Kelly,25,Etoupe,Swift,Gold,2022,Very Good,15650
-Kelly,25,Etoupe,Swift,Rose Gold,2019,Very Good,15750
-Kelly,25,Rose,Chevre,Palladium,2023,Very Good,15850
-Kelly,25,Etoupe,Epsom,Rose Gold,2022,Very Good,15900
-Kelly,25,Gold,Epsom,Gold,2025,Very Good,15900
-Kelly,25,Gold,Epsom,Gold,2023,Excellent,15900
-Kelly,25,Gold,Chevre,Gold,2022,Very Good,15950
-Kelly,25,Sakura,Togo,Palladium,2022,Excellent,16000
-Kelly,25,Gold,Clemence,Rose Gold,2022,Excellent,16350
-Kelly,25,Etoupe,Togo,Palladium,2018,New,16400
-Kelly,25,Mauve Sylvestre,Togo,Rose Gold,2017,Excellent,16450
-Kelly,25,Mauve Sylvestre,Epsom,Palladium,2019,Excellent,16650
-Kelly,25,Pink,Swift,Palladium,2019,Excellent,16900
-Kelly,25,Bleu Brume,Chevre,Gold,2022,Very Good,17300
-Kelly,25,Rose,Epsom,Palladium,2024,Excellent,17500
+Birkin,30,Vert Fonce,Clemence,Rose Gold,2025,Good,14400
+Birkin,30,Rouge H,Clemence,Gold,2017,Very Good,14450
+Birkin,30,Craie,Swift,Palladium,2024,Good,14900
+Birkin,30,Bleu Nuit,Clemence,Rose Gold,2025,Good,15100
+Birkin,30,Rouge H,Clemence,Rose Gold,2021,Good,15150
+Birkin,30,Anemone,Togo,Rose Gold,2021,Good,15250
+Birkin,30,Bleu Zellige,Epsom,Palladium,2017,Very Good,15250
+Birkin,30,Vert Fonce,Swift,Rose Gold,2022,Good,15750
+Birkin,30,Blanc,Clemence,Gold,2018,Excellent,15800
+Birkin,30,Craie,Togo,Gold,2018,Excellent,16400
+Birkin,30,Bleu Saphir,Togo,Gold,2017,Excellent,16500
+Birkin,30,Anemone,Swift,Gold,2018,Very Good,16650
+Birkin,30,Vert Fonce,Togo,Gold,2023,Very Good,16750
+Birkin,30,Vert Bosphore,Clemence,Palladium,2023,Very Good,16800
+Birkin,30,Bleu Nuit,Togo,Gold,2024,Very Good,16850
+Birkin,30,Sakura,Swift,Gold,2025,Good,17000
+Birkin,30,Gris Etain,Clemence,Gold,2017,Excellent,17050
+Birkin,30,Sakura,Clemence,Gold,2023,Very Good,17050
+Birkin,30,Vert Fonce,Togo,Palladium,2019,Excellent,17200
+Birkin,30,Rouge Casaque,Togo,Palladium,2017,Excellent,17400
+Birkin,30,Vert Fonce,Clemence,Rose Gold,2023,Very Good,17450
+Birkin,30,Bleu Nuit,Swift,Palladium,2023,Very Good,17650
+Birkin,30,Blanc,Swift,Palladium,2017,Excellent,17800
+Birkin,30,Vert Fonce,Togo,Palladium,2021,Excellent,18050
+Birkin,30,Blanc,Togo,Palladium,2025,Excellent,18200
+Birkin,30,Anemone,Epsom,Gold,2020,Excellent,18350
+Birkin,30,Vert Anis,Clemence,Rose Gold,2019,Excellent,18350
+Birkin,30,Havane,Chevre,Gold,2018,Excellent,18500
+Birkin,30,Havane,Epsom,Rose Gold,2018,Excellent,18550
+Birkin,30,Vert Fonce,Epsom,Palladium,2018,New,18600
+Birkin,30,Chocolat,Swift,Gold,2025,Very Good,18900
+Birkin,30,Rose,Clemence,Gold,2025,Excellent,19050
+Birkin,30,Craie,Epsom,Rose Gold,2025,Excellent,19250
+Birkin,30,Bleu Brume,Chevre,Gold,2019,Excellent,19500
+Birkin,30,Etoupe,Swift,Palladium,2017,New,19650
+Birkin,30,Chocolat,Clemence,Gold,2021,New,19750
+Birkin,30,Bleu Brume,Epsom,Rose Gold,2017,New,19850
+Birkin,30,Mauve Sylvestre,Chevre,Palladium,2024,Very Good,19900
+Birkin,30,Havane,Epsom,Palladium,2021,New,20900
+Birkin,30,Bleu Zellige,Chevre,Rose Gold,2020,Excellent,21300
+Birkin,30,Bleu Nuit,Swift,Palladium,2023,New,21450
+Birkin,30,Vert Fonce,Clemence,Rose Gold,2022,New,21600
+Birkin,30,Vert Fonce,Chevre,Rose Gold,2024,Excellent,21800
+Birkin,30,Mauve Sylvestre,Chevre,Rose Gold,2024,Excellent,21900
+Birkin,30,Prune,Epsom,Palladium,2025,New,22550
+Birkin,30,Noir,Swift,Rose Gold,2024,New,22700
+Birkin,30,Bleu Saphir,Swift,Gold,2025,New,23250
+Birkin,30,Mauve Sylvestre,Chevre,Rose Gold,2021,New,23450
+Birkin,30,Vert Anis,Chevre,Palladium,2022,New,23600
+Birkin,30,Gold,Ostrich,Rose Gold,2019,Used,39550
+Birkin,30,Mauve Sylvestre,Ostrich,Palladium,2017,Very Good,51050
+Birkin,30,Bleu Zellige,Lizard,Palladium,2018,Good,52150
+Birkin,30,Chocolat,Lizard,Palladium,2022,Good,56350
+Birkin,30,Noir,Alligator,Palladium,2017,Good,60100
+Birkin,30,Gold,Alligator,Gold,2021,Good,60800
+Birkin,30,Chocolat,Lizard,Gold,2022,Very Good,61750
+Birkin,30,Bleu Zellige,Ostrich,Gold,2024,Excellent,64350
+Birkin,30,Gris Etain,Alligator,Palladium,2022,Very Good,72300
+Birkin,30,Chocolat,Crocodile,Gold,2025,Good,75700
+Birkin,30,Mauve Sylvestre,Lizard,Rose Gold,2017,New,76600
+Birkin,35,Anemone,Clemence,Gold,2020,Used,9850
+Birkin,35,Gold,Togo,Gold,2021,Used,10450
+Birkin,35,Etoupe,Epsom,Gold,2019,Used,10450
+Birkin,35,Craie,Togo,Rose Gold,2020,Used,10650
+Birkin,35,Noir,Chevre,Gold,2017,Used,11000
+Birkin,35,Jaune Ambre,Togo,Rose Gold,2024,Used,11450
+Birkin,35,Etoupe,Swift,Rose Gold,2020,Used,11600
+Birkin,35,Rouge Casaque,Clemence,Palladium,2022,Good,12150
+Birkin,35,Blanc,Clemence,Gold,2025,Good,12300
+Birkin,35,Orange,Epsom,Palladium,2022,Good,12550
+Birkin,35,Vert Fonce,Clemence,Palladium,2019,Very Good,13000
+Birkin,35,Jaune Ambre,Chevre,Gold,2018,Good,13350
+Birkin,35,Bleu Zellige,Togo,Palladium,2021,Very Good,13450
+Birkin,35,Vert Bosphore,Epsom,Gold,2024,Good,13500
+Birkin,35,Sakura,Epsom,Rose Gold,2020,Good,13700
+Birkin,35,Sakura,Chevre,Gold,2022,Good,14050
+Birkin,35,Blanc,Chevre,Palladium,2024,Good,14450
+Birkin,35,Craie,Epsom,Gold,2023,Very Good,14500
+Birkin,35,Blanc,Clemence,Rose Gold,2024,Very Good,14550
+Birkin,35,Havane,Togo,Palladium,2023,Very Good,14650
+Birkin,35,Vert Fonce,Chevre,Rose Gold,2020,Good,14650
+Birkin,35,Noir,Clemence,Rose Gold,2023,Very Good,14700
+Birkin,35,Gris Etain,Chevre,Rose Gold,2017,Very Good,14750
+Birkin,35,Rouge Casaque,Chevre,Palladium,2018,Very Good,14800
+Birkin,35,Anemone,Swift,Rose Gold,2025,Good,14900
+Birkin,35,Havane,Epsom,Rose Gold,2020,Very Good,15100
+Birkin,35,Gold,Togo,Palladium,2023,Excellent,15150
+Birkin,35,Chocolat,Swift,Rose Gold,2020,Very Good,15600
+Birkin,35,Bleu Brume,Swift,Palladium,2021,Very Good,15850
+Birkin,35,Vert Anis,Chevre,Rose Gold,2020,Very Good,15950
+Birkin,35,Gold,Swift,Rose Gold,2023,Very Good,16150
+Birkin,35,Mauve Sylvestre,Togo,Rose Gold,2021,Excellent,16300
+Birkin,35,Vert Anis,Epsom,Gold,2020,Excellent,16400
+Birkin,35,Prune,Chevre,Gold,2025,Very Good,16450
+Birkin,35,Blanc,Epsom,Rose Gold,2020,Excellent,16500
+Birkin,35,Vert Bosphore,Epsom,Rose Gold,2024,Very Good,16550
+Birkin,35,Bleu Saphir,Epsom,Gold,2021,Excellent,16650
+Birkin,35,Rose,Chevre,Rose Gold,2022,Very Good,16850
+Birkin,35,Gris Etain,Epsom,Gold,2021,Excellent,16950
+Birkin,35,Rose,Swift,Palladium,2023,Excellent,17700
+Birkin,35,Vert Fonce,Swift,Palladium,2020,New,17700
+Birkin,35,Bleu Nuit,Chevre,Gold,2020,Excellent,17700
+Birkin,35,Rose,Chevre,Palladium,2022,Excellent,17800
+Birkin,35,Blanc,Togo,Rose Gold,2018,New,17800
+Birkin,35,Etoupe,Clemence,Rose Gold,2020,New,18000
+Birkin,35,Jaune Ambre,Togo,Palladium,2024,New,18350
+Birkin,35,Havane,Togo,Gold,2024,New,19150
+Birkin,35,Sakura,Epsom,Rose Gold,2023,New,19550
+Birkin,35,Noir,Togo,Rose Gold,2024,New,19600
+Birkin,35,Rouge H,Swift,Rose Gold,2017,New,19650
+Birkin,35,Anemone,Chevre,Rose Gold,2023,Excellent,19800
+Birkin,35,Gris Etain,Chevre,Gold,2022,New,20350
+Birkin,35,Jaune Ambre,Chevre,Rose Gold,2023,New,21100
+Birkin,35,Rouge H,Lizard,Gold,2021,Used,40950
+Birkin,35,Gris Etain,Lizard,Palladium,2025,Good,51000
+Birkin,35,Orange,Ostrich,Gold,2020,Excellent,51200
+Birkin,35,Etoupe,Lizard,Gold,2024,Excellent,62900
+Birkin,35,Pink,Lizard,Rose Gold,2019,Excellent,65600
+Birkin,35,Pink,Crocodile,Gold,2025,Very Good,74700
+Birkin,35,Pink,Crocodile,Gold,2025,New,91950
+Bolide,27,Bleu Zellige,Clemence,Palladium,2025,Used,6850
+Bolide,27,Noir,Epsom,Palladium,2019,Used,6900
+Bolide,27,Bleu Zellige,Chevre,Gold,2017,Used,7150
+Bolide,27,Rouge Casaque,Epsom,Rose Gold,2022,Used,7450
+Bolide,27,Rose,Chevre,Gold,2024,Used,7900
+Bolide,27,Rouge H,Togo,Gold,2019,Good,8000
+Bolide,27,Etoupe,Chevre,Rose Gold,2021,Used,8400
+Bolide,27,Pink,Epsom,Palladium,2019,Good,8400
+Bolide,27,Prune,Togo,Palladium,2021,Good,8650
+Bolide,27,Vert Bosphore,Epsom,Gold,2019,Good,8850
+Bolide,27,Craie,Clemence,Palladium,2021,Very Good,9000
+Bolide,27,Anemone,Epsom,Rose Gold,2021,Good,9550
+Bolide,27,Pink,Chevre,Palladium,2022,Good,9600
+Bolide,27,Havane,Clemence,Gold,2024,Very Good,9600
+Bolide,27,Prune,Togo,Rose Gold,2025,Good,9700
+Bolide,27,Bleu Zellige,Chevre,Palladium,2022,Good,9900
+Bolide,27,Bleu Saphir,Swift,Palladium,2019,Very Good,10000
+Bolide,27,Bleu Saphir,Togo,Palladium,2025,Very Good,10200
+Bolide,27,Rouge H,Togo,Gold,2017,Excellent,10400
+Bolide,27,Rose,Clemence,Rose Gold,2022,Very Good,10500
+Bolide,27,Sakura,Epsom,Gold,2025,Very Good,11100
+Bolide,27,Chocolat,Epsom,Rose Gold,2018,New,11700
+Bolide,27,Anemone,Clemence,Palladium,2023,New,11800
+Bolide,27,Prune,Togo,Palladium,2025,New,12050
+Bolide,27,Havane,Togo,Palladium,2023,New,12350
+Bolide,27,Blanc,Epsom,Palladium,2025,New,12700
+Bolide,27,Rose,Clemence,Gold,2024,New,12700
+Bolide,27,Orange,Chevre,Palladium,2024,Excellent,13000
+Bolide,27,Havane,Chevre,Gold,2019,New,13150
+Bolide,27,Gris Etain,Epsom,Rose Gold,2024,New,13500
+Bolide,27,Rose,Ostrich,Palladium,2017,Good,25950
+Bolide,27,Craie,Ostrich,Palladium,2020,Good,26000
+Bolide,27,Bleu Zellige,Alligator,Rose Gold,2018,Good,37500
+Bolide,27,Rose,Alligator,Gold,2024,Good,38900
+Bolide,27,Bleu Nuit,Crocodile,Gold,2020,Good,42800
+Bolide,27,Bleu Saphir,Lizard,Rose Gold,2017,New,43750
+Bolide,27,Pink,Lizard,Gold,2017,New,46150
+Bolide,27,Chocolat,Alligator,Palladium,2021,Excellent,46950
+Bolide,31,Gris Etain,Togo,Palladium,2022,Used,7250
+Bolide,31,Bleu Saphir,Epsom,Palladium,2020,Used,7350
+Bolide,31,Bleu Nuit,Togo,Gold,2021,Used,7550
+Bolide,31,Pink,Togo,Rose Gold,2017,Used,7650
+Bolide,31,Craie,Epsom,Rose Gold,2021,Used,7750
+Bolide,31,Bleu Brume,Swift,Rose Gold,2018,Used,7900
+Bolide,31,Pink,Togo,Rose Gold,2020,Used,8250
+Bolide,31,Sakura,Togo,Gold,2023,Used,8250
+Bolide,31,Sakura,Chevre,Gold,2021,Used,8700
+Bolide,31,Rose,Togo,Rose Gold,2019,Good,9000
+Bolide,31,Pink,Togo,Palladium,2020,Good,9200
+Bolide,31,Bleu Zellige,Chevre,Rose Gold,2024,Used,9250
+Bolide,31,Jaune Ambre,Clemence,Palladium,2021,Good,9500
+Bolide,31,Prune,Clemence,Palladium,2019,Very Good,9600
+Bolide,31,Noir,Swift,Gold,2021,Good,9800
+Bolide,31,Rouge Casaque,Chevre,Palladium,2019,Good,9800
+Bolide,31,Rouge H,Chevre,Gold,2023,Good,10500
+Bolide,31,Pink,Clemence,Palladium,2022,Very Good,10700
+Bolide,31,Blanc,Togo,Palladium,2020,Excellent,10900
+Bolide,31,Jaune Ambre,Togo,Palladium,2023,Very Good,10900
+Bolide,31,Craie,Epsom,Palladium,2019,Excellent,10950
+Bolide,31,Etoupe,Chevre,Gold,2017,Very Good,11300
+Bolide,31,Rose,Chevre,Gold,2025,Good,11350
+Bolide,31,Gris Etain,Epsom,Gold,2020,Excellent,12300
+Bolide,31,Rouge H,Epsom,Rose Gold,2018,Excellent,12350
+Bolide,31,Mauve Sylvestre,Chevre,Rose Gold,2019,Very Good,12550
+Bolide,31,Noir,Clemence,Palladium,2024,New,12950
+Bolide,31,Gris Etain,Swift,Rose Gold,2019,Excellent,13000
+Bolide,31,Chocolat,Epsom,Gold,2018,New,13050
+Bolide,31,Sakura,Chevre,Gold,2020,Excellent,13050
+Bolide,31,Rose,Swift,Rose Gold,2019,Excellent,13050
+Bolide,31,Mauve Sylvestre,Togo,Gold,2025,Excellent,13100
+Bolide,31,Bleu Nuit,Epsom,Gold,2022,New,14000
+Bolide,31,Craie,Swift,Palladium,2022,New,14700
+Bolide,31,Etoupe,Ostrich,Palladium,2021,Good,29950
+Bolide,31,Prune,Lizard,Palladium,2022,Used,31400
+Bolide,31,Jaune Ambre,Lizard,Gold,2018,Good,34300
+Bolide,31,Bleu Brume,Ostrich,Rose Gold,2024,Good,34950
+Bolide,31,Orange,Alligator,Rose Gold,2019,Used,35400
+Bolide,31,Vert Fonce,Ostrich,Gold,2017,Excellent,35900
+Bolide,31,Etoupe,Lizard,Rose Gold,2020,Excellent,45350
+Bolide,31,Gris Etain,Crocodile,Rose Gold,2023,Good,51150
+Constance,18,Rouge Casaque,Togo,Gold,2017,Used,5950
+Constance,18,Anemone,Epsom,Gold,2019,Used,6300
+Constance,18,Vert Bosphore,Chevre,Gold,2018,Used,6700
+Constance,18,Noir,Swift,Gold,2018,Used,6750
+Constance,18,Craie,Togo,Palladium,2025,Used,6850
+Constance,18,Gold,Clemence,Rose Gold,2025,Used,6900
+Constance,18,Etoupe,Swift,Gold,2025,Used,7100
+Constance,18,Craie,Clemence,Palladium,2018,Good,7150
+Constance,18,Vert Bosphore,Swift,Gold,2021,Used,7350
+Constance,18,Anemone,Chevre,Rose Gold,2021,Used,7500
+Constance,18,Vert Fonce,Epsom,Gold,2018,Good,7550
+Constance,18,Orange,Clemence,Palladium,2022,Good,7600
+Constance,18,Rouge Casaque,Togo,Rose Gold,2018,Good,7650
+Constance,18,Prune,Epsom,Rose Gold,2025,Used,7850
+Constance,18,Vert Fonce,Epsom,Gold,2022,Good,8000
+Constance,18,Vert Bosphore,Togo,Gold,2021,Good,8100
+Constance,18,Bleu Saphir,Swift,Palladium,2021,Good,8200
+Constance,18,Bleu Saphir,Clemence,Rose Gold,2021,Good,8250
+Constance,18,Bleu Saphir,Epsom,Gold,2023,Good,8250
+Constance,18,Vert Fonce,Togo,Palladium,2021,Very Good,8400
+Constance,18,Bleu Saphir,Epsom,Palladium,2018,Very Good,8650
+Constance,18,Vert Anis,Swift,Palladium,2024,Good,8700
+Constance,18,Gris Etain,Swift,Palladium,2020,Very Good,8900
+Constance,18,Prune,Clemence,Rose Gold,2021,Very Good,8900
+Constance,18,Havane,Togo,Rose Gold,2020,Very Good,9100
+Constance,18,Havane,Swift,Gold,2018,Very Good,9100
+Constance,18,Craie,Clemence,Rose Gold,2022,Very Good,9400
+Constance,18,Gold,Chevre,Rose Gold,2025,Good,9450
+Constance,18,Bleu Brume,Chevre,Gold,2025,Good,9450
+Constance,18,Vert Anis,Togo,Gold,2020,Very Good,9500
+Constance,18,Chocolat,Chevre,Gold,2021,Very Good,9600
+Constance,18,Bleu Saphir,Swift,Palladium,2020,Excellent,9950
+Constance,18,Bleu Brume,Chevre,Palladium,2018,Very Good,9950
+Constance,18,Gold,Togo,Rose Gold,2021,Excellent,9950
+Constance,18,Chocolat,Epsom,Palladium,2019,Excellent,10000
+Constance,18,Gold,Clemence,Rose Gold,2024,Excellent,10050
+Constance,18,Anemone,Clemence,Gold,2025,Excellent,10750
+Constance,18,Jaune Ambre,Swift,Gold,2024,Excellent,11500
+Constance,18,Bleu Saphir,Togo,Rose Gold,2019,New,11500
+Constance,18,Prune,Chevre,Gold,2022,Excellent,11550
+Constance,18,Vert Bosphore,Swift,Palladium,2019,New,11600
+Constance,18,Anemone,Swift,Palladium,2019,New,11700
+Constance,18,Bleu Saphir,Togo,Rose Gold,2025,New,11850
+Constance,18,Bleu Zellige,Clemence,Gold,2025,New,12200
+Constance,18,Sakura,Swift,Palladium,2020,New,12400
+Constance,18,Mauve Sylvestre,Togo,Rose Gold,2023,New,12400
+Constance,18,Blanc,Chevre,Palladium,2025,New,13050
+Constance,18,Chocolat,Ostrich,Palladium,2020,Used,20050
+Constance,18,Prune,Ostrich,Rose Gold,2017,Used,20750
+Constance,18,Rouge Casaque,Ostrich,Rose Gold,2021,Used,22300
+Constance,18,Bleu Brume,Ostrich,Rose Gold,2023,Used,23500
+Constance,18,Noir,Alligator,Gold,2021,Used,29650
+Constance,18,Gris Etain,Alligator,Gold,2018,Good,33950
+Constance,18,Havane,Ostrich,Gold,2024,Excellent,35200
+Constance,18,Gold,Crocodile,Palladium,2019,Good,36450
+Constance,18,Rouge Casaque,Lizard,Rose Gold,2022,Very Good,37350
+Constance,18,Mauve Sylvestre,Lizard,Gold,2019,Excellent,37400
+Constance,18,Bleu Zellige,Crocodile,Rose Gold,2019,Very Good,48700
+Constance,18,Jaune Ambre,Alligator,Rose Gold,2020,Excellent,50450
+Constance,24,Chocolat,Epsom,Palladium,2021,Used,7950
+Constance,24,Bleu Brume,Epsom,Palladium,2019,Used,7950
+Constance,24,Orange,Togo,Palladium,2018,Used,8150
+Constance,24,Pink,Chevre,Palladium,2017,Used,8250
+Constance,24,Vert Fonce,Epsom,Palladium,2024,Used,8400
+Constance,24,Anemone,Togo,Rose Gold,2019,Used,8650
+Constance,24,Bleu Saphir,Chevre,Gold,2017,Used,8900
+Constance,24,Etoupe,Chevre,Gold,2018,Used,9000
+Constance,24,Etoupe,Epsom,Palladium,2017,Good,9100
+Constance,24,Jaune Ambre,Togo,Gold,2023,Used,9150
+Constance,24,Gris Etain,Clemence,Rose Gold,2024,Used,9150
+Constance,24,Bleu Saphir,Swift,Palladium,2025,Used,9450
+Constance,24,Havane,Clemence,Palladium,2021,Good,9550
+Constance,24,Bleu Nuit,Clemence,Gold,2020,Good,9550
+Constance,24,Rouge Casaque,Swift,Rose Gold,2025,Used,9850
+Constance,24,Bleu Brume,Swift,Rose Gold,2024,Used,9900
+Constance,24,Rose,Epsom,Palladium,2025,Good,10300
+Constance,24,Prune,Epsom,Palladium,2023,Good,10300
+Constance,24,Anemone,Clemence,Gold,2025,Good,10900
+Constance,24,Vert Anis,Togo,Gold,2017,Very Good,11200
+Constance,24,Vert Anis,Togo,Palladium,2020,Very Good,11650
+Constance,24,Mauve Sylvestre,Epsom,Palladium,2020,Very Good,11650
+Constance,24,Craie,Epsom,Palladium,2021,Very Good,11900
+Constance,24,Vert Anis,Togo,Rose Gold,2022,Very Good,12000
+Constance,24,Bleu Zellige,Togo,Rose Gold,2023,Very Good,12000
+Constance,24,Havane,Swift,Rose Gold,2024,Good,12100
+Constance,24,Bleu Saphir,Swift,Palladium,2020,Very Good,12550
+Constance,24,Rouge H,Swift,Palladium,2022,Very Good,12650
+Constance,24,Gold,Epsom,Palladium,2022,Excellent,12800
+Constance,24,Prune,Chevre,Palladium,2019,Very Good,12850
+Constance,24,Bleu Zellige,Epsom,Rose Gold,2017,Excellent,12950
+Constance,24,Sakura,Epsom,Rose Gold,2020,Very Good,13100
+Constance,24,Vert Bosphore,Epsom,Palladium,2021,Excellent,13350
+Constance,24,Bleu Zellige,Swift,Rose Gold,2025,Very Good,13400
+Constance,24,Rouge H,Swift,Palladium,2017,Excellent,13450
+Constance,24,Bleu Saphir,Epsom,Palladium,2017,New,13450
+Constance,24,Prune,Clemence,Rose Gold,2021,Excellent,13650
+Constance,24,Gold,Epsom,Rose Gold,2025,Excellent,13700
+Constance,24,Vert Fonce,Chevre,Rose Gold,2018,Excellent,13750
+Constance,24,Bleu Nuit,Togo,Gold,2021,New,14100
+Constance,24,Blanc,Chevre,Rose Gold,2020,Excellent,14300
+Constance,24,Mauve Sylvestre,Chevre,Palladium,2025,Excellent,14850
+Constance,24,Vert Fonce,Epsom,Rose Gold,2019,New,15100
+Constance,24,Gold,Clemence,Rose Gold,2024,New,15450
+Constance,24,Rouge Casaque,Chevre,Palladium,2023,New,15750
+Constance,24,Rouge H,Chevre,Palladium,2024,New,15950
+Constance,24,Chocolat,Ostrich,Palladium,2019,Used,26300
+Constance,24,Craie,Lizard,Gold,2019,Used,30600
+Constance,24,Rouge H,Ostrich,Rose Gold,2025,Good,35200
+Constance,24,Rouge Casaque,Alligator,Palladium,2024,Used,38200
+Constance,24,Bleu Zellige,Lizard,Gold,2022,Good,38650
+Constance,24,Mauve Sylvestre,Alligator,Palladium,2020,Used,38900
+Constance,24,Bleu Zellige,Ostrich,Rose Gold,2020,Very Good,40550
+Constance,24,Rouge Casaque,Ostrich,Rose Gold,2020,Excellent,41750
+Constance,24,Rouge H,Alligator,Rose Gold,2023,Used,43350
+Constance,24,Orange,Ostrich,Rose Gold,2020,New,49900
+Constance,24,Prune,Lizard,Palladium,2022,Excellent,50950
+Constance,24,Noir,Lizard,Rose Gold,2021,Excellent,52500
+Constance,24,Etoupe,Alligator,Gold,2020,Excellent,56250
+Constance,24,Blanc,Alligator,Gold,2021,Excellent,58800
+Constance,24,Havane,Crocodile,Gold,2024,Very Good,64150
+Evelyne,16,Havane,Swift,Gold,2020,Used,2150
+Evelyne,16,Vert Fonce,Swift,Gold,2020,Used,2200
+Evelyne,16,Chocolat,Chevre,Gold,2020,Used,2350
+Evelyne,16,Bleu Zellige,Epsom,Gold,2017,Good,2450
+Evelyne,16,Rouge H,Chevre,Rose Gold,2022,Used,2550
+Evelyne,16,Jaune Ambre,Togo,Gold,2018,Good,2550
+Evelyne,16,Etoupe,Epsom,Gold,2024,Good,2650
+Evelyne,16,Rose,Epsom,Rose Gold,2017,Very Good,2850
+Evelyne,16,Gold,Chevre,Rose Gold,2017,Good,2850
+Evelyne,16,Craie,Clemence,Gold,2018,Excellent,2900
+Evelyne,16,Blanc,Swift,Gold,2019,Very Good,2950
+Evelyne,16,Gris Etain,Chevre,Rose Gold,2022,Good,2950
+Evelyne,16,Bleu Nuit,Clemence,Gold,2017,Excellent,2950
+Evelyne,16,Anemone,Togo,Gold,2023,Very Good,3100
+Evelyne,16,Havane,Epsom,Gold,2021,Very Good,3100
+Evelyne,16,Sakura,Chevre,Gold,2019,Very Good,3200
+Evelyne,16,Rouge Casaque,Clemence,Palladium,2023,Excellent,3200
+Evelyne,16,Sakura,Swift,Palladium,2023,Very Good,3250
+Evelyne,16,Jaune Ambre,Epsom,Gold,2019,Excellent,3250
+Evelyne,16,Jaune Ambre,Epsom,Palladium,2021,Excellent,3400
+Evelyne,16,Bleu Nuit,Swift,Rose Gold,2020,Excellent,3500
+Evelyne,16,Gold,Epsom,Palladium,2017,New,3550
+Evelyne,16,Rouge Casaque,Clemence,Gold,2024,New,3650
+Evelyne,16,Gris Etain,Swift,Rose Gold,2024,Excellent,3800
+Evelyne,16,Vert Anis,Epsom,Palladium,2025,New,4000
+Evelyne,16,Bleu Brume,Swift,Rose Gold,2018,New,4050
+Evelyne,16,Chocolat,Chevre,Gold,2019,New,4050
+Evelyne,16,Rouge Casaque,Epsom,Rose Gold,2024,New,4100
+Evelyne,29,Pink,Epsom,Gold,2017,Used,2700
+Evelyne,29,Gold,Swift,Palladium,2025,Used,3150
+Evelyne,29,Bleu Brume,Clemence,Palladium,2021,Good,3350
+Evelyne,29,Orange,Chevre,Palladium,2024,Used,3400
+Evelyne,29,Prune,Swift,Gold,2018,Good,3500
+Evelyne,29,Prune,Clemence,Rose Gold,2019,Good,3600
+Evelyne,29,Craie,Togo,Palladium,2020,Very Good,3700
+Evelyne,29,Pink,Epsom,Rose Gold,2021,Good,3700
+Evelyne,29,Pink,Clemence,Palladium,2023,Very Good,3800
+Evelyne,29,Jaune Ambre,Swift,Gold,2025,Good,4100
+Evelyne,29,Pink,Togo,Palladium,2025,Very Good,4250
+Evelyne,29,Gold,Togo,Gold,2022,Excellent,4300
+Evelyne,29,Bleu Brume,Swift,Palladium,2019,Very Good,4300
+Evelyne,29,Vert Fonce,Epsom,Gold,2022,Very Good,4300
+Evelyne,29,Rouge Casaque,Swift,Rose Gold,2018,Very Good,4400
+Evelyne,29,Bleu Brume,Clemence,Gold,2023,Excellent,4450
+Evelyne,29,Etoupe,Chevre,Rose Gold,2023,Very Good,4550
+Evelyne,29,Mauve Sylvestre,Swift,Gold,2018,Excellent,4550
+Evelyne,29,Noir,Epsom,Palladium,2024,Excellent,4600
+Evelyne,29,Pink,Chevre,Gold,2022,Very Good,4600
+Evelyne,29,Bleu Nuit,Clemence,Rose Gold,2017,New,4650
+Evelyne,29,Vert Anis,Chevre,Gold,2024,Very Good,4700
+Evelyne,29,Sakura,Togo,Palladium,2022,Excellent,4750
+Evelyne,29,Sakura,Epsom,Rose Gold,2022,Excellent,4800
+Evelyne,29,Rouge H,Togo,Palladium,2020,New,4850
+Evelyne,29,Blanc,Epsom,Gold,2025,New,5050
+Evelyne,29,Orange,Swift,Palladium,2021,Excellent,5050
+Evelyne,29,Mauve Sylvestre,Clemence,Palladium,2025,New,5250
+Evelyne,29,Prune,Clemence,Rose Gold,2025,New,5300
+Evelyne,29,Chocolat,Chevre,Rose Gold,2020,New,5800
+Evelyne,33,Etoupe,Epsom,Palladium,2022,Used,3450
+Evelyne,33,Vert Fonce,Clemence,Palladium,2025,Used,3500
+Evelyne,33,Sakura,Togo,Rose Gold,2019,Used,3600
+Evelyne,33,Anemone,Togo,Rose Gold,2019,Used,3650
+Evelyne,33,Noir,Chevre,Gold,2025,Used,3850
+Evelyne,33,Bleu Zellige,Chevre,Palladium,2024,Used,4150
+Evelyne,33,Bleu Brume,Togo,Palladium,2019,Very Good,4600
+Evelyne,33,Pink,Togo,Palladium,2021,Very Good,4600
+Evelyne,33,Vert Bosphore,Chevre,Gold,2024,Good,4700
+Evelyne,33,Blanc,Chevre,Palladium,2021,Good,4700
+Evelyne,33,Jaune Ambre,Swift,Gold,2022,Good,4750
+Evelyne,33,Prune,Clemence,Palladium,2021,Very Good,4750
+Evelyne,33,Rouge Casaque,Clemence,Gold,2021,Very Good,4800
+Evelyne,33,Rouge H,Togo,Gold,2018,Very Good,4850
+Evelyne,33,Rose,Epsom,Rose Gold,2022,Very Good,5150
+Evelyne,33,Jaune Ambre,Togo,Rose Gold,2024,Very Good,5150
+Evelyne,33,Pink,Clemence,Rose Gold,2022,Very Good,5150
+Evelyne,33,Blanc,Epsom,Rose Gold,2020,Excellent,5300
+Evelyne,33,Bleu Nuit,Epsom,Rose Gold,2020,Excellent,5400
+Evelyne,33,Pink,Togo,Rose Gold,2025,Very Good,5550
+Evelyne,33,Craie,Togo,Palladium,2019,New,5550
+Evelyne,33,Bleu Nuit,Togo,Palladium,2022,New,5600
+Evelyne,33,Rouge Casaque,Epsom,Rose Gold,2018,Excellent,5700
+Evelyne,33,Vert Bosphore,Togo,Rose Gold,2025,Excellent,5750
+Evelyne,33,Etoupe,Togo,Gold,2020,New,6150
+Evelyne,33,Sakura,Clemence,Gold,2023,New,6200
+Evelyne,33,Noir,Epsom,Gold,2024,New,6250
+Evelyne,33,Gold,Epsom,Rose Gold,2022,New,6300
+Evelyne,33,Orange,Chevre,Palladium,2023,Excellent,6350
+Evelyne,33,Sakura,Epsom,Palladium,2020,New,6400
+Evelyne,33,Sakura,Togo,Rose Gold,2021,New,6400
+Evelyne,33,Vert Anis,Chevre,Rose Gold,2025,New,7500
+Garden Party,30,Noir,Togo,Rose Gold,2021,Used,2400
+Garden Party,30,Craie,Epsom,Palladium,2023,Used,2400
+Garden Party,30,Vert Bosphore,Togo,Palladium,2024,Used,2500
+Garden Party,30,Sakura,Togo,Palladium,2022,Used,2550
+Garden Party,30,Rouge Casaque,Swift,Palladium,2021,Used,2550
+Garden Party,30,Jaune Ambre,Epsom,Gold,2020,Used,2600
+Garden Party,30,Vert Fonce,Epsom,Palladium,2018,Good,2700
+Garden Party,30,Rouge Casaque,Swift,Rose Gold,2023,Used,2900
+Garden Party,30,Prune,Clemence,Rose Gold,2021,Good,2950
+Garden Party,30,Rose,Epsom,Palladium,2025,Good,3000
+Garden Party,30,Vert Fonce,Swift,Rose Gold,2018,Good,3050
+Garden Party,30,Bleu Nuit,Clemence,Gold,2025,Good,3050
+Garden Party,30,Gris Etain,Togo,Gold,2020,Very Good,3100
+Garden Party,30,Jaune Ambre,Epsom,Gold,2023,Good,3150
+Garden Party,30,Vert Fonce,Epsom,Rose Gold,2025,Good,3150
+Garden Party,30,Rose,Chevre,Gold,2022,Good,3200
+Garden Party,30,Etoupe,Swift,Rose Gold,2022,Good,3200
+Garden Party,30,Mauve Sylvestre,Clemence,Gold,2022,Very Good,3250
+Garden Party,30,Mauve Sylvestre,Chevre,Palladium,2022,Good,3300
+Garden Party,30,Anemone,Epsom,Rose Gold,2020,Very Good,3500
+Garden Party,30,Bleu Nuit,Togo,Gold,2022,Excellent,3600
+Garden Party,30,Etoupe,Chevre,Gold,2021,Very Good,3600
+Garden Party,30,Blanc,Togo,Palladium,2022,Excellent,3650
+Garden Party,30,Chocolat,Epsom,Palladium,2021,Excellent,3650
+Garden Party,30,Jaune Ambre,Swift,Palladium,2023,Very Good,3700
+Garden Party,30,Sakura,Togo,Gold,2021,Excellent,3750
+Garden Party,30,Noir,Togo,Gold,2018,New,3850
+Garden Party,30,Sakura,Clemence,Gold,2022,Excellent,3850
+Garden Party,30,Gris Etain,Chevre,Gold,2022,Very Good,3850
+Garden Party,30,Vert Fonce,Chevre,Rose Gold,2023,Very Good,3950
+Garden Party,30,Gold,Swift,Rose Gold,2019,Excellent,4000
+Garden Party,30,Vert Anis,Chevre,Gold,2021,Excellent,4050
+Garden Party,30,Craie,Swift,Palladium,2017,New,4050
+Garden Party,30,Gris Etain,Epsom,Rose Gold,2025,Excellent,4150
+Garden Party,30,Anemone,Clemence,Rose Gold,2024,Excellent,4150
+Garden Party,30,Pink,Swift,Gold,2019,New,4200
+Garden Party,30,Rouge H,Chevre,Rose Gold,2025,Very Good,4300
+Garden Party,30,Vert Anis,Clemence,Rose Gold,2021,New,4450
+Garden Party,30,Mauve Sylvestre,Togo,Gold,2022,New,4450
+Garden Party,30,Vert Fonce,Chevre,Rose Gold,2020,New,4550
+Garden Party,30,Sakura,Clemence,Rose Gold,2024,New,4550
+Garden Party,36,Bleu Nuit,Clemence,Palladium,2021,Used,2550
+Garden Party,36,Bleu Brume,Togo,Palladium,2023,Used,2650
+Garden Party,36,Gold,Togo,Rose Gold,2018,Used,2700
+Garden Party,36,Etoupe,Swift,Palladium,2021,Used,2850
+Garden Party,36,Rouge H,Epsom,Palladium,2022,Used,2850
+Garden Party,36,Etoupe,Swift,Rose Gold,2019,Used,2900
+Garden Party,36,Bleu Nuit,Swift,Rose Gold,2021,Used,3100
+Garden Party,36,Prune,Epsom,Rose Gold,2024,Used,3100
+Garden Party,36,Gold,Chevre,Palladium,2022,Used,3100
+Garden Party,36,Vert Bosphore,Clemence,Rose Gold,2025,Used,3100
+Garden Party,36,Bleu Saphir,Swift,Palladium,2024,Used,3150
+Garden Party,36,Bleu Saphir,Epsom,Rose Gold,2020,Good,3300
+Garden Party,36,Sakura,Epsom,Rose Gold,2024,Used,3350
+Garden Party,36,Sakura,Chevre,Gold,2017,Good,3400
+Garden Party,36,Gold,Clemence,Gold,2024,Good,3450
+Garden Party,36,Rose,Clemence,Rose Gold,2024,Good,3500
+Garden Party,36,Craie,Epsom,Gold,2023,Good,3550
+Garden Party,36,Prune,Clemence,Palladium,2019,Very Good,3600
+Garden Party,36,Blanc,Togo,Palladium,2024,Very Good,3600
+Garden Party,36,Rouge H,Epsom,Palladium,2025,Good,3650
+Garden Party,36,Blanc,Clemence,Palladium,2018,Excellent,3650
+Garden Party,36,Vert Anis,Epsom,Rose Gold,2025,Good,3700
+Garden Party,36,Jaune Ambre,Swift,Rose Gold,2020,Good,3700
+Garden Party,36,Vert Anis,Swift,Palladium,2025,Good,3800
+Garden Party,36,Bleu Nuit,Chevre,Palladium,2022,Very Good,3950
+Garden Party,36,Anemone,Clemence,Palladium,2022,Excellent,3950
+Garden Party,36,Sakura,Togo,Gold,2019,Excellent,4100
+Garden Party,36,Orange,Epsom,Gold,2024,Very Good,4150
+Garden Party,36,Bleu Zellige,Swift,Gold,2023,Very Good,4200
+Garden Party,36,Havane,Togo,Gold,2023,Excellent,4200
+Garden Party,36,Blanc,Togo,Palladium,2023,Excellent,4250
+Garden Party,36,Craie,Togo,Palladium,2018,New,4350
+Garden Party,36,Bleu Brume,Epsom,Gold,2019,New,4600
+Garden Party,36,Pink,Swift,Palladium,2017,New,4700
+Garden Party,36,Jaune Ambre,Togo,Rose Gold,2018,New,4800
+Garden Party,36,Mauve Sylvestre,Swift,Gold,2020,Excellent,4800
+Garden Party,36,Havane,Swift,Palladium,2022,New,4900
+Garden Party,36,Havane,Swift,Rose Gold,2017,New,5000
+Garden Party,36,Etoupe,Epsom,Gold,2025,New,5050
+Halzan,25,Bleu Saphir,Chevre,Gold,2019,Used,4600
+Halzan,25,Blanc,Chevre,Rose Gold,2020,Used,4750
+Halzan,25,Bleu Brume,Togo,Gold,2020,Good,4950
+Halzan,25,Orange,Clemence,Palladium,2023,Good,5150
+Halzan,25,Mauve Sylvestre,Togo,Palladium,2023,Good,5350
+Halzan,25,Bleu Saphir,Togo,Rose Gold,2023,Good,5500
+Halzan,25,Rouge Casaque,Epsom,Palladium,2018,Very Good,5550
+Halzan,25,Gris Etain,Togo,Palladium,2018,Very Good,5550
+Halzan,25,Gris Etain,Epsom,Gold,2019,Very Good,5600
+Halzan,25,Vert Fonce,Swift,Rose Gold,2022,Good,5600
+Halzan,25,Anemone,Swift,Rose Gold,2024,Good,5650
+Halzan,25,Mauve Sylvestre,Clemence,Palladium,2021,Very Good,5750
+Halzan,25,Bleu Brume,Epsom,Palladium,2022,Very Good,5900
+Halzan,25,Pink,Epsom,Palladium,2017,Excellent,5900
+Halzan,25,Blanc,Chevre,Palladium,2017,Very Good,5950
+Halzan,25,Vert Fonce,Chevre,Gold,2019,Very Good,6000
+Halzan,25,Bleu Nuit,Togo,Rose Gold,2023,Very Good,6100
+Halzan,25,Bleu Nuit,Clemence,Rose Gold,2017,Excellent,6200
+Halzan,25,Gris Etain,Chevre,Rose Gold,2019,Very Good,6300
+Halzan,25,Bleu Saphir,Swift,Rose Gold,2018,Very Good,6300
+Halzan,25,Rouge H,Togo,Palladium,2020,Excellent,6350
+Halzan,25,Vert Anis,Epsom,Gold,2025,Very Good,6350
+Halzan,25,Bleu Zellige,Togo,Gold,2018,New,6550
+Halzan,25,Anemone,Chevre,Gold,2019,Very Good,6600
+Halzan,25,Noir,Clemence,Rose Gold,2022,Excellent,6650
+Halzan,25,Rouge H,Clemence,Palladium,2020,New,6650
+Halzan,25,Rouge H,Clemence,Gold,2018,New,6700
+Halzan,25,Bleu Nuit,Togo,Gold,2020,New,6700
+Halzan,25,Bleu Zellige,Togo,Palladium,2024,Excellent,6800
+Halzan,25,Orange,Swift,Rose Gold,2018,Excellent,7050
+Halzan,25,Gris Etain,Chevre,Rose Gold,2019,New,7650
+Halzan,25,Rose,Chevre,Palladium,2018,New,7750
+Halzan,25,Sakura,Swift,Rose Gold,2024,New,8950
+Halzan,25,Rouge Casaque,Lizard,Gold,2021,Used,16250
+Halzan,25,Mauve Sylvestre,Alligator,Rose Gold,2018,Used,20050
+Halzan,25,Sakura,Lizard,Rose Gold,2024,Very Good,24900
+Halzan,25,Prune,Crocodile,Rose Gold,2021,Excellent,32350
+Halzan,31,Rouge H,Clemence,Gold,2025,Used,4800
+Halzan,31,Craie,Togo,Gold,2017,Good,5250
+Halzan,31,Etoupe,Epsom,Gold,2017,Good,5250
+Halzan,31,Etoupe,Swift,Palladium,2024,Used,5250
+Halzan,31,Jaune Ambre,Chevre,Palladium,2020,Used,5300
+Halzan,31,Chocolat,Togo,Palladium,2018,Good,5350
+Halzan,31,Sakura,Chevre,Palladium,2022,Used,5450
+Halzan,31,Gris Etain,Swift,Rose Gold,2022,Used,5500
+Halzan,31,Havane,Epsom,Rose Gold,2019,Good,5950
+Halzan,31,Sakura,Swift,Palladium,2021,Good,5950
+Halzan,31,Blanc,Chevre,Gold,2019,Good,6000
+Halzan,31,Chocolat,Swift,Palladium,2021,Good,6050
+Halzan,31,Bleu Saphir,Chevre,Rose Gold,2017,Good,6100
+Halzan,31,Bleu Saphir,Swift,Gold,2021,Good,6100
+Halzan,31,Havane,Chevre,Rose Gold,2017,Good,6100
+Halzan,31,Vert Fonce,Epsom,Gold,2018,Very Good,6300
+Halzan,31,Vert Anis,Epsom,Rose Gold,2020,Good,6300
+Halzan,31,Rouge H,Epsom,Gold,2025,Good,6350
+Halzan,31,Bleu Nuit,Swift,Palladium,2020,Very Good,6450
+Halzan,31,Etoupe,Togo,Gold,2024,Very Good,6550
+Halzan,31,Mauve Sylvestre,Swift,Palladium,2018,Very Good,6600
+Halzan,31,Vert Anis,Togo,Gold,2020,Very Good,6700
+Halzan,31,Etoupe,Togo,Rose Gold,2025,Very Good,6850
+Halzan,31,Rose,Swift,Rose Gold,2017,Very Good,6900
+Halzan,31,Mauve Sylvestre,Clemence,Rose Gold,2020,Excellent,7000
+Halzan,31,Mauve Sylvestre,Epsom,Gold,2024,Very Good,7100
+Halzan,31,Rouge Casaque,Swift,Gold,2022,Very Good,7300
+Halzan,31,Prune,Togo,Rose Gold,2025,Very Good,7500
+Halzan,31,Rouge Casaque,Chevre,Palladium,2024,Very Good,7700
+Halzan,31,Bleu Brume,Chevre,Palladium,2017,Excellent,7800
+Halzan,31,Vert Bosphore,Clemence,Rose Gold,2020,New,8150
+Halzan,31,Sakura,Swift,Gold,2023,Excellent,8200
+Halzan,31,Rouge H,Togo,Gold,2024,New,8300
+Halzan,31,Bleu Brume,Epsom,Rose Gold,2019,New,8450
+Halzan,31,Bleu Nuit,Swift,Gold,2023,New,8750
+Halzan,31,Etoupe,Swift,Rose Gold,2018,New,8900
+Halzan,31,Vert Fonce,Chevre,Gold,2022,New,9100
+Halzan,31,Rouge H,Crocodile,Rose Gold,2017,Used,22350
+Halzan,31,Noir,Alligator,Rose Gold,2020,Good,26900
+Halzan,31,Pink,Alligator,Gold,2020,Very Good,28550
+Halzan,31,Bleu Saphir,Alligator,Rose Gold,2017,Very Good,28650
+Halzan,31,Mauve Sylvestre,Crocodile,Gold,2023,Very Good,33800
+Halzan,31,Etoupe,Alligator,Rose Gold,2025,Excellent,37400
+Kelly,25,Bleu Zellige,Clemence,Palladium,2017,Used,9150
+Kelly,25,Bleu Saphir,Clemence,Gold,2019,Used,9850
+Kelly,25,Pink,Togo,Gold,2019,Used,10250
+Kelly,25,Rouge H,Epsom,Gold,2020,Used,10350
+Kelly,25,Chocolat,Togo,Rose Gold,2024,Used,10750
+Kelly,25,Rose,Togo,Palladium,2024,Used,11000
+Kelly,25,Vert Anis,Epsom,Palladium,2024,Used,11150
+Kelly,25,Gris Etain,Epsom,Palladium,2025,Used,11200
+Kelly,25,Vert Fonce,Epsom,Gold,2017,Good,11600
+Kelly,25,Mauve Sylvestre,Epsom,Gold,2025,Used,11650
+Kelly,25,Craie,Clemence,Rose Gold,2017,Good,12100
+Kelly,25,Prune,Clemence,Rose Gold,2018,Good,12150
+Kelly,25,Bleu Brume,Togo,Palladium,2021,Good,12350
+Kelly,25,Bleu Zellige,Clemence,Rose Gold,2022,Good,12350
+Kelly,25,Etoupe,Chevre,Rose Gold,2022,Used,12550
+Kelly,25,Anemone,Clemence,Palladium,2025,Good,12800
+Kelly,25,Vert Bosphore,Swift,Palladium,2022,Good,12800
+Kelly,25,Jaune Ambre,Epsom,Palladium,2019,Good,12800
+Kelly,25,Gris Etain,Chevre,Rose Gold,2025,Used,12850
+Kelly,25,Bleu Saphir,Epsom,Gold,2023,Good,13200
+Kelly,25,Havane,Togo,Gold,2024,Good,13250
+Kelly,25,Chocolat,Chevre,Palladium,2019,Good,13350
+Kelly,25,Bleu Brume,Swift,Gold,2020,Good,13400
+Kelly,25,Anemone,Togo,Palladium,2017,Very Good,13450
+Kelly,25,Pink,Swift,Gold,2021,Good,13800
+Kelly,25,Anemone,Epsom,Rose Gold,2023,Good,13900
+Kelly,25,Vert Fonce,Clemence,Rose Gold,2018,Very Good,14000
+Kelly,25,Bleu Nuit,Swift,Palladium,2024,Good,14150
+Kelly,25,Bleu Brume,Chevre,Palladium,2021,Good,14200
+Kelly,25,Bleu Nuit,Clemence,Rose Gold,2017,Excellent,14200
+Kelly,25,Blanc,Swift,Rose Gold,2024,Good,14250
+Kelly,25,Noir,Togo,Palladium,2025,Very Good,14400
+Kelly,25,Bleu Zellige,Togo,Gold,2025,Very Good,14950
+Kelly,25,Vert Bosphore,Swift,Rose Gold,2018,Very Good,15000
+Kelly,25,Orange,Togo,Palladium,2022,Very Good,15000
+Kelly,25,Rouge Casaque,Chevre,Gold,2025,Good,15150
+Kelly,25,Mauve Sylvestre,Clemence,Palladium,2017,Excellent,15350
+Kelly,25,Jaune Ambre,Swift,Gold,2022,Very Good,15400
+Kelly,25,Gold,Swift,Palladium,2021,Excellent,15800
+Kelly,25,Craie,Swift,Gold,2023,Very Good,16150
+Kelly,25,Bleu Brume,Epsom,Gold,2025,Very Good,16350
+Kelly,25,Vert Anis,Togo,Rose Gold,2017,Excellent,16400
+Kelly,25,Mauve Sylvestre,Swift,Rose Gold,2017,Excellent,16400
+Kelly,25,Blanc,Epsom,Gold,2025,Excellent,16450
+Kelly,25,Orange,Clemence,Gold,2021,Excellent,16500
+Kelly,25,Gris Etain,Swift,Gold,2021,Excellent,16550
+Kelly,25,Rose,Togo,Rose Gold,2023,Excellent,16700
+Kelly,25,Gris Etain,Chevre,Palladium,2020,Excellent,16750
+Kelly,25,Anemone,Chevre,Rose Gold,2024,Very Good,16800
+Kelly,25,Anemone,Epsom,Rose Gold,2024,Very Good,16950
+Kelly,25,Prune,Chevre,Gold,2025,Very Good,17100
+Kelly,25,Vert Anis,Togo,Palladium,2022,New,17250
+Kelly,25,Jaune Ambre,Chevre,Palladium,2018,Excellent,17250
+Kelly,25,Havane,Togo,Palladium,2022,New,17300
+Kelly,25,Vert Anis,Epsom,Rose Gold,2017,New,17550
+Kelly,25,Gris Etain,Clemence,Rose Gold,2020,New,17600
 Kelly,25,Sakura,Clemence,Palladium,2018,New,17650
-Kelly,25,Bleu Brume,Epsom,Palladium,2021,New,17800
-Kelly,25,Mauve Sylvestre,Swift,Rose Gold,2025,Very Good,17900
-Kelly,25,Sakura,Chevre,Rose Gold,2023,Very Good,18050
-Kelly,25,Noir,Swift,Gold,2025,Excellent,18200
-Kelly,25,Rose,Swift,Rose Gold,2024,Excellent,18250
-Kelly,25,Sakura,Swift,Gold,2021,Excellent,18300
-Kelly,25,Pink,Swift,Palladium,2025,Excellent,18800
-Kelly,25,Gold,Swift,Gold,2019,New,18850
-Kelly,25,Etoupe,Epsom,Rose Gold,2022,New,19100
-Kelly,25,Etoupe,Chevre,Gold,2020,New,19350
-Kelly,25,Bleu Brume,Chevre,Gold,2024,Excellent,19450
-Kelly,25,Rose,Lizard,Gold,2017,Used,38050
-Kelly,25,Bleu Brume,Lizard,Palladium,2017,Used,38150
-Kelly,25,Etoupe,Ostrich,Palladium,2024,Excellent,51700
-Kelly,25,Pink,Alligator,Gold,2017,Good,53250
-Kelly,25,Etoupe,Crocodile,Palladium,2025,Good,63850
-Kelly,25,Noir,Crocodile,Rose Gold,2025,Excellent,86100
-Kelly,28,Sakura,Clemence,Rose Gold,2018,Used,10800
-Kelly,28,Gold,Swift,Palladium,2018,Used,11050
-Kelly,28,Gold,Clemence,Rose Gold,2024,Used,11350
-Kelly,28,Etoupe,Clemence,Rose Gold,2025,Used,11350
-Kelly,28,Mauve Sylvestre,Chevre,Palladium,2020,Used,11800
-Kelly,28,Sakura,Epsom,Rose Gold,2021,Used,11800
-Kelly,28,Pink,Clemence,Palladium,2020,Good,12500
-Kelly,28,Gold,Epsom,Rose Gold,2025,Used,12550
-Kelly,28,Bleu Brume,Epsom,Gold,2017,Good,12600
-Kelly,28,Sakura,Chevre,Rose Gold,2017,Used,12900
-Kelly,28,Bleu Brume,Chevre,Palladium,2023,Used,12950
-Kelly,28,Mauve Sylvestre,Swift,Rose Gold,2022,Used,12950
-Kelly,28,Gold,Togo,Rose Gold,2021,Good,13000
-Kelly,28,Gold,Clemence,Rose Gold,2017,Good,13000
-Kelly,28,Rose,Epsom,Rose Gold,2018,Good,13050
-Kelly,28,Pink,Togo,Gold,2023,Good,13100
-Kelly,28,Etoupe,Chevre,Palladium,2018,Good,13650
-Kelly,28,Noir,Swift,Palladium,2024,Good,13700
-Kelly,28,Noir,Clemence,Rose Gold,2023,Good,13800
-Kelly,28,Pink,Chevre,Gold,2019,Good,14200
-Kelly,28,Mauve Sylvestre,Clemence,Palladium,2018,Very Good,14200
-Kelly,28,Sakura,Chevre,Gold,2018,Good,14300
-Kelly,28,Etoupe,Clemence,Rose Gold,2024,Good,14400
-Kelly,28,Noir,Togo,Rose Gold,2024,Good,14500
-Kelly,28,Gold,Togo,Rose Gold,2019,Very Good,14500
-Kelly,28,Etoupe,Chevre,Palladium,2022,Good,14550
-Kelly,28,Pink,Chevre,Palladium,2022,Good,14650
-Kelly,28,Noir,Swift,Palladium,2019,Very Good,14750
-Kelly,28,Mauve Sylvestre,Clemence,Gold,2022,Very Good,14800
-Kelly,28,Mauve Sylvestre,Swift,Rose Gold,2022,Good,14850
-Kelly,28,Rose,Togo,Palladium,2018,Excellent,15100
-Kelly,28,Mauve Sylvestre,Togo,Gold,2017,Very Good,15150
-Kelly,28,Bleu Brume,Epsom,Gold,2019,Very Good,15450
-Kelly,28,Noir,Clemence,Palladium,2020,Excellent,15650
-Kelly,28,Etoupe,Swift,Palladium,2017,Excellent,15950
-Kelly,28,Etoupe,Chevre,Palladium,2019,Very Good,16100
-Kelly,28,Gold,Clemence,Gold,2021,Excellent,16200
-Kelly,28,Mauve Sylvestre,Togo,Palladium,2019,Excellent,16250
-Kelly,28,Rose,Epsom,Palladium,2025,Very Good,16350
-Kelly,28,Rose,Chevre,Rose Gold,2025,Good,16350
-Kelly,28,Sakura,Togo,Palladium,2022,Very Good,16350
-Kelly,28,Noir,Togo,Palladium,2022,Excellent,16500
-Kelly,28,Noir,Epsom,Gold,2023,Very Good,16550
-Kelly,28,Noir,Chevre,Palladium,2025,Very Good,16700
-Kelly,28,Gold,Togo,Rose Gold,2024,Very Good,16800
-Kelly,28,Gold,Swift,Gold,2022,Very Good,16800
-Kelly,28,Etoupe,Epsom,Rose Gold,2017,Excellent,16900
-Kelly,28,Bleu Brume,Epsom,Rose Gold,2017,Excellent,17050
-Kelly,28,Noir,Swift,Rose Gold,2023,Very Good,17200
-Kelly,28,Mauve Sylvestre,Chevre,Rose Gold,2025,Good,17200
-Kelly,28,Gold,Clemence,Rose Gold,2024,Excellent,17350
-Kelly,28,Mauve Sylvestre,Clemence,Palladium,2017,New,17500
-Kelly,28,Noir,Clemence,Gold,2019,New,17500
-Kelly,28,Gold,Chevre,Gold,2018,Excellent,17750
-Kelly,28,Pink,Clemence,Gold,2018,New,18050
-Kelly,28,Pink,Chevre,Gold,2022,Very Good,18200
-Kelly,28,Gold,Epsom,Palladium,2022,New,18250
-Kelly,28,Rose,Epsom,Gold,2023,Excellent,18450
-Kelly,28,Rose,Swift,Gold,2017,New,18750
-Kelly,28,Sakura,Epsom,Rose Gold,2022,Excellent,18800
-Kelly,28,Bleu Brume,Swift,Palladium,2022,Excellent,18800
-Kelly,28,Rose,Chevre,Palladium,2020,Excellent,19000
-Kelly,28,Etoupe,Epsom,Gold,2020,New,19300
-Kelly,28,Pink,Swift,Gold,2025,Excellent,19550
-Kelly,28,Bleu Brume,Chevre,Palladium,2023,Excellent,19650
-Kelly,28,Bleu Brume,Epsom,Gold,2022,New,20000
+Kelly,25,Rouge Casaque,Swift,Gold,2024,Excellent,17950
+Kelly,25,Orange,Epsom,Palladium,2024,Excellent,18150
+Kelly,25,Bleu Zellige,Swift,Palladium,2025,Excellent,18900
+Kelly,25,Blanc,Epsom,Rose Gold,2024,New,18950
+Kelly,25,Gold,Chevre,Gold,2020,New,19150
+Kelly,25,Anemone,Epsom,Palladium,2022,New,19400
+Kelly,25,Orange,Chevre,Gold,2025,New,21750
+Kelly,25,Vert Anis,Ostrich,Rose Gold,2020,Used,35950
+Kelly,25,Jaune Ambre,Ostrich,Rose Gold,2019,Good,42250
+Kelly,25,Bleu Saphir,Alligator,Palladium,2022,Used,48700
+Kelly,25,Vert Fonce,Crocodile,Gold,2020,Used,50900
+Kelly,25,Etoupe,Alligator,Rose Gold,2025,Used,52950
+Kelly,25,Sakura,Lizard,Palladium,2025,Excellent,64550
+Kelly,25,Rouge Casaque,Crocodile,Rose Gold,2022,Good,67000
+Kelly,25,Mauve Sylvestre,Lizard,Rose Gold,2017,New,71350
+Kelly,28,Blanc,Togo,Gold,2021,Used,10450
+Kelly,28,Rouge Casaque,Clemence,Gold,2020,Used,10600
+Kelly,28,Orange,Clemence,Gold,2018,Used,10900
+Kelly,28,Orange,Clemence,Palladium,2021,Used,11000
+Kelly,28,Gold,Togo,Palladium,2025,Used,11050
+Kelly,28,Bleu Brume,Clemence,Gold,2023,Used,11250
+Kelly,28,Vert Anis,Epsom,Gold,2025,Used,11650
+Kelly,28,Havane,Chevre,Palladium,2019,Used,11750
+Kelly,28,Gris Etain,Clemence,Palladium,2018,Good,11750
+Kelly,28,Blanc,Togo,Gold,2018,Good,11900
+Kelly,28,Vert Fonce,Swift,Gold,2022,Used,11950
+Kelly,28,Bleu Zellige,Togo,Palladium,2018,Good,11950
+Kelly,28,Rouge H,Togo,Palladium,2025,Used,12050
+Kelly,28,Havane,Chevre,Palladium,2019,Used,12150
+Kelly,28,Rouge H,Clemence,Gold,2021,Good,12750
+Kelly,28,Rouge H,Chevre,Palladium,2023,Used,12950
+Kelly,28,Vert Bosphore,Epsom,Palladium,2023,Good,13200
+Kelly,28,Pink,Clemence,Gold,2025,Good,13250
+Kelly,28,Rouge Casaque,Togo,Gold,2023,Good,13500
+Kelly,28,Etoupe,Chevre,Rose Gold,2023,Used,13500
+Kelly,28,Noir,Togo,Rose Gold,2023,Good,13800
+Kelly,28,Anemone,Epsom,Rose Gold,2019,Good,13850
+Kelly,28,Jaune Ambre,Togo,Gold,2021,Good,14000
+Kelly,28,Blanc,Epsom,Palladium,2018,Very Good,14300
+Kelly,28,Noir,Swift,Palladium,2023,Good,14350
+Kelly,28,Havane,Togo,Palladium,2022,Very Good,14400
+Kelly,28,Vert Anis,Swift,Rose Gold,2022,Good,14750
+Kelly,28,Gold,Togo,Rose Gold,2021,Very Good,14900
+Kelly,28,Rouge Casaque,Togo,Rose Gold,2019,Very Good,15050
+Kelly,28,Noir,Togo,Palladium,2025,Very Good,15150
+Kelly,28,Bleu Saphir,Togo,Palladium,2023,Very Good,15150
+Kelly,28,Bleu Brume,Togo,Gold,2024,Very Good,15350
+Kelly,28,Bleu Nuit,Swift,Palladium,2020,Very Good,15500
+Kelly,28,Mauve Sylvestre,Epsom,Gold,2017,Very Good,15550
+Kelly,28,Anemone,Togo,Palladium,2025,Very Good,15850
+Kelly,28,Pink,Swift,Rose Gold,2024,Good,15900
+Kelly,28,Gold,Clemence,Rose Gold,2018,Excellent,16000
+Kelly,28,Rose,Clemence,Palladium,2020,Excellent,16050
+Kelly,28,Gris Etain,Swift,Gold,2019,Very Good,16100
+Kelly,28,Vert Anis,Epsom,Gold,2023,Very Good,16150
+Kelly,28,Bleu Nuit,Swift,Rose Gold,2019,Very Good,16450
+Kelly,28,Rouge H,Togo,Rose Gold,2024,Very Good,16500
+Kelly,28,Vert Fonce,Epsom,Rose Gold,2017,Excellent,16750
+Kelly,28,Prune,Clemence,Gold,2021,Excellent,16750
+Kelly,28,Bleu Saphir,Chevre,Rose Gold,2025,Good,16800
+Kelly,28,Jaune Ambre,Chevre,Rose Gold,2025,Good,16850
+Kelly,28,Rose,Chevre,Palladium,2025,Very Good,17100
+Kelly,28,Vert Anis,Chevre,Gold,2023,Very Good,17200
+Kelly,28,Mauve Sylvestre,Togo,Rose Gold,2024,Very Good,17450
+Kelly,28,Craie,Chevre,Rose Gold,2022,Very Good,17550
+Kelly,28,Pink,Clemence,Gold,2019,New,17950
+Kelly,28,Bleu Nuit,Swift,Rose Gold,2018,Excellent,18100
+Kelly,28,Bleu Brume,Togo,Palladium,2024,Excellent,18450
+Kelly,28,Gold,Chevre,Palladium,2024,Excellent,18450
+Kelly,28,Blanc,Chevre,Palladium,2020,Excellent,18550
+Kelly,28,Orange,Chevre,Gold,2022,Very Good,18750
+Kelly,28,Bleu Nuit,Epsom,Palladium,2020,New,19350
+Kelly,28,Blanc,Chevre,Gold,2018,New,19600
+Kelly,28,Orange,Clemence,Rose Gold,2021,New,19750
+Kelly,28,Jaune Ambre,Chevre,Palladium,2023,Excellent,20100
 Kelly,28,Sakura,Swift,Rose Gold,2021,Excellent,20150
-Kelly,28,Bleu Brume,Epsom,Gold,2020,New,20300
-Kelly,28,Pink,Swift,Palladium,2024,New,21300
-Kelly,28,Noir,Swift,Rose Gold,2024,New,21850
-Kelly,28,Bleu Brume,Lizard,Palladium,2017,Used,40650
-Kelly,28,Noir,Ostrich,Gold,2019,Very Good,47750
-Kelly,28,Rose,Ostrich,Gold,2018,New,57750
-Kelly,28,Bleu Brume,Crocodile,Rose Gold,2023,Used,58100
-Kelly,28,Sakura,Crocodile,Gold,2023,Used,61950
-Kelly,28,Pink,Lizard,Gold,2018,Excellent,61950
-Kelly,28,Etoupe,Crocodile,Rose Gold,2019,Good,66000
-Kelly,28,Noir,Lizard,Gold,2018,New,67250
-Kelly,28,Pink,Lizard,Palladium,2021,New,74800
-Kelly,28,Pink,Alligator,Palladium,2025,New,94350
-Kelly,28,Mauve Sylvestre,Crocodile,Gold,2025,Excellent,95150
-Kelly,28,Bleu Brume,Crocodile,Rose Gold,2024,New,109750
-Mini Kelly,20,Etoupe,Clemence,Palladium,2018,Used,13050
-Mini Kelly,20,Etoupe,Clemence,Palladium,2021,Used,13200
-Mini Kelly,20,Gold,Clemence,Gold,2020,Used,13500
-Mini Kelly,20,Noir,Chevre,Palladium,2017,Used,13850
-Mini Kelly,20,Sakura,Epsom,Gold,2021,Used,14850
-Mini Kelly,20,Rose,Swift,Palladium,2019,Used,14950
-Mini Kelly,20,Gold,Clemence,Gold,2025,Used,15050
-Mini Kelly,20,Noir,Epsom,Rose Gold,2022,Used,15350
-Mini Kelly,20,Noir,Epsom,Rose Gold,2025,Used,15350
+Kelly,28,Vert Bosphore,Chevre,Rose Gold,2018,New,20550
+Kelly,28,Jaune Ambre,Chevre,Rose Gold,2023,Excellent,20750
+Kelly,28,Rouge Casaque,Epsom,Rose Gold,2022,New,20850
+Kelly,28,Mauve Sylvestre,Chevre,Rose Gold,2023,Excellent,21400
+Kelly,28,Vert Bosphore,Chevre,Rose Gold,2023,New,23100
+Kelly,28,Havane,Ostrich,Rose Gold,2023,Very Good,56050
+Kelly,28,Chocolat,Lizard,Gold,2018,Very Good,57500
+Kelly,28,Etoupe,Ostrich,Gold,2021,New,60500
+Kelly,28,Bleu Zellige,Lizard,Gold,2018,Excellent,62250
+Kelly,28,Blanc,Lizard,Palladium,2020,Excellent,63500
+Kelly,28,Etoupe,Lizard,Gold,2019,New,69700
+Kelly,28,Rouge Casaque,Ostrich,Rose Gold,2025,New,70550
+Kelly,28,Bleu Saphir,Alligator,Gold,2022,Very Good,74250
+Kelly,28,Havane,Lizard,Rose Gold,2025,New,81150
+Kelly,28,Sakura,Crocodile,Gold,2018,Excellent,84850
+Kelly,28,Chocolat,Alligator,Palladium,2025,New,90650
+Kelly,28,Vert Anis,Crocodile,Gold,2025,Excellent,94700
+Lindy,26,Bleu Saphir,Epsom,Gold,2020,Used,5250
+Lindy,26,Blanc,Epsom,Palladium,2024,Used,5550
+Lindy,26,Etoupe,Swift,Gold,2021,Used,5600
+Lindy,26,Vert Anis,Clemence,Gold,2023,Used,5650
+Lindy,26,Vert Anis,Epsom,Rose Gold,2020,Used,5650
+Lindy,26,Rouge H,Epsom,Gold,2024,Used,5950
+Lindy,26,Rouge Casaque,Epsom,Gold,2018,Good,6050
+Lindy,26,Vert Fonce,Togo,Gold,2017,Good,6100
+Lindy,26,Orange,Clemence,Rose Gold,2024,Used,6150
+Lindy,26,Havane,Epsom,Gold,2018,Good,6150
+Lindy,26,Rouge H,Swift,Gold,2025,Used,6350
+Lindy,26,Bleu Nuit,Togo,Palladium,2018,Very Good,6900
+Lindy,26,Orange,Togo,Rose Gold,2025,Good,7000
+Lindy,26,Bleu Zellige,Epsom,Palladium,2025,Good,7100
+Lindy,26,Bleu Saphir,Swift,Rose Gold,2020,Good,7150
+Lindy,26,Bleu Nuit,Clemence,Palladium,2019,Excellent,7200
+Lindy,26,Bleu Nuit,Chevre,Gold,2023,Good,7250
+Lindy,26,Noir,Togo,Rose Gold,2019,Very Good,7300
+Lindy,26,Mauve Sylvestre,Epsom,Rose Gold,2025,Good,7450
+Lindy,26,Havane,Clemence,Rose Gold,2024,Very Good,7550
+Lindy,26,Chocolat,Chevre,Rose Gold,2021,Good,7600
+Lindy,26,Vert Anis,Togo,Rose Gold,2017,Very Good,7650
+Lindy,26,Rouge H,Chevre,Gold,2018,Very Good,7750
+Lindy,26,Blanc,Clemence,Rose Gold,2017,New,8250
+Lindy,26,Rouge Casaque,Swift,Palladium,2017,Excellent,8250
+Lindy,26,Chocolat,Chevre,Gold,2023,Very Good,8300
+Lindy,26,Vert Fonce,Chevre,Rose Gold,2021,Very Good,8500
+Lindy,26,Pink,Chevre,Rose Gold,2017,Very Good,8500
+Lindy,26,Blanc,Chevre,Rose Gold,2017,Excellent,8700
+Lindy,26,Vert Bosphore,Clemence,Gold,2023,New,8900
+Lindy,26,Rose,Togo,Rose Gold,2025,Excellent,8900
+Lindy,26,Etoupe,Chevre,Gold,2021,Excellent,8950
+Lindy,26,Orange,Epsom,Palladium,2023,Excellent,8950
+Lindy,26,Rose,Chevre,Rose Gold,2019,Excellent,9000
+Lindy,26,Orange,Swift,Gold,2022,Excellent,9300
+Lindy,26,Craie,Clemence,Rose Gold,2022,New,9300
+Lindy,26,Orange,Togo,Palladium,2024,New,9750
+Lindy,26,Vert Fonce,Epsom,Rose Gold,2021,New,9750
+Lindy,26,Chocolat,Chevre,Palladium,2019,New,10000
+Lindy,26,Craie,Chevre,Gold,2020,New,10300
+Lindy,26,Pink,Swift,Rose Gold,2025,New,10650
+Lindy,26,Craie,Ostrich,Rose Gold,2020,Excellent,28250
+Lindy,26,Sakura,Alligator,Gold,2019,Very Good,33600
+Lindy,26,Etoupe,Alligator,Gold,2019,Excellent,35250
+Lindy,26,Anemone,Crocodile,Palladium,2021,Very Good,36900
+Lindy,26,Rose,Crocodile,Gold,2022,New,49450
+Lindy,30,Craie,Clemence,Palladium,2017,Used,5100
+Lindy,30,Blanc,Epsom,Gold,2020,Used,5750
+Lindy,30,Blanc,Swift,Rose Gold,2017,Used,6100
+Lindy,30,Prune,Togo,Gold,2023,Used,6150
+Lindy,30,Gris Etain,Chevre,Palladium,2019,Used,6150
+Lindy,30,Orange,Swift,Palladium,2017,Used,6200
+Lindy,30,Blanc,Clemence,Palladium,2019,Good,6500
+Lindy,30,Pink,Epsom,Gold,2018,Good,6700
+Lindy,30,Rose,Epsom,Rose Gold,2019,Good,7400
+Lindy,30,Havane,Chevre,Rose Gold,2025,Used,7500
+Lindy,30,Vert Anis,Chevre,Gold,2018,Good,7550
+Lindy,30,Orange,Togo,Gold,2022,Good,7650
+Lindy,30,Rouge Casaque,Epsom,Rose Gold,2023,Good,7950
+Lindy,30,Anemone,Chevre,Rose Gold,2019,Good,7950
+Lindy,30,Mauve Sylvestre,Togo,Rose Gold,2020,Very Good,8050
+Lindy,30,Havane,Epsom,Palladium,2022,Very Good,8100
+Lindy,30,Craie,Togo,Gold,2020,Very Good,8150
+Lindy,30,Rouge Casaque,Clemence,Palladium,2021,Excellent,8550
+Lindy,30,Bleu Saphir,Epsom,Palladium,2022,Very Good,8600
+Lindy,30,Vert Anis,Togo,Rose Gold,2021,Very Good,8700
+Lindy,30,Noir,Epsom,Gold,2022,Very Good,8700
+Lindy,30,Orange,Togo,Rose Gold,2022,Very Good,8800
+Lindy,30,Chocolat,Swift,Rose Gold,2023,Very Good,9050
+Lindy,30,Anemone,Swift,Gold,2017,Excellent,9050
+Lindy,30,Gris Etain,Clemence,Palladium,2025,Excellent,9200
+Lindy,30,Bleu Saphir,Epsom,Palladium,2023,Excellent,9400
+Lindy,30,Anemone,Swift,Gold,2019,Excellent,9450
+Lindy,30,Chocolat,Swift,Rose Gold,2020,Excellent,9450
+Lindy,30,Rose,Clemence,Gold,2020,New,9500
+Lindy,30,Orange,Swift,Palladium,2018,Excellent,9550
+Lindy,30,Prune,Swift,Gold,2020,Excellent,9550
+Lindy,30,Prune,Chevre,Gold,2020,Excellent,9550
+Lindy,30,Gold,Epsom,Palladium,2024,Excellent,9550
+Lindy,30,Pink,Swift,Palladium,2024,Excellent,9700
+Lindy,30,Bleu Nuit,Chevre,Rose Gold,2024,Very Good,9800
+Lindy,30,Bleu Nuit,Chevre,Gold,2019,Excellent,9950
+Lindy,30,Prune,Chevre,Palladium,2017,New,10300
+Lindy,30,Mauve Sylvestre,Epsom,Rose Gold,2024,Excellent,10450
+Lindy,30,Etoupe,Chevre,Rose Gold,2019,New,11300
+Lindy,30,Vert Fonce,Chevre,Rose Gold,2025,Excellent,11350
+Lindy,30,Rose,Alligator,Palladium,2017,Used,26150
+Lindy,30,Prune,Alligator,Gold,2023,Very Good,40200
+Lindy,30,Mauve Sylvestre,Crocodile,Rose Gold,2018,New,53050
+Lindy,30,Vert Bosphore,Crocodile,Gold,2022,New,54200
+Mini Kelly,20,Gold,Clemence,Palladium,2018,Used,12950
+Mini Kelly,20,Bleu Brume,Clemence,Gold,2020,Used,13900
+Mini Kelly,20,Jaune Ambre,Togo,Gold,2017,Used,14150
+Mini Kelly,20,Pink,Togo,Rose Gold,2019,Used,14250
+Mini Kelly,20,Rouge Casaque,Togo,Palladium,2024,Used,14250
+Mini Kelly,20,Etoupe,Epsom,Gold,2021,Used,14250
+Mini Kelly,20,Prune,Clemence,Palladium,2021,Used,14300
+Mini Kelly,20,Pink,Epsom,Rose Gold,2018,Used,14500
+Mini Kelly,20,Chocolat,Swift,Gold,2017,Used,14550
+Mini Kelly,20,Havane,Clemence,Rose Gold,2024,Used,14900
+Mini Kelly,20,Etoupe,Epsom,Gold,2020,Used,15100
+Mini Kelly,20,Etoupe,Epsom,Rose Gold,2023,Used,15200
+Mini Kelly,20,Vert Anis,Swift,Rose Gold,2019,Used,15300
+Mini Kelly,20,Craie,Epsom,Rose Gold,2022,Used,15550
+Mini Kelly,20,Prune,Chevre,Palladium,2022,Used,15600
 Mini Kelly,20,Sakura,Togo,Gold,2025,Used,15950
-Mini Kelly,20,Rose,Epsom,Gold,2025,Used,16150
-Mini Kelly,20,Sakura,Epsom,Palladium,2017,Good,16350
-Mini Kelly,20,Gold,Swift,Rose Gold,2024,Used,16500
-Mini Kelly,20,Gold,Togo,Gold,2023,Good,16750
-Mini Kelly,20,Pink,Epsom,Palladium,2017,Good,16800
-Mini Kelly,20,Noir,Chevre,Palladium,2017,Good,17100
-Mini Kelly,20,Pink,Togo,Gold,2023,Good,17200
-Mini Kelly,20,Noir,Epsom,Palladium,2025,Good,17250
-Mini Kelly,20,Rose,Swift,Rose Gold,2025,Used,17400
-Mini Kelly,20,Etoupe,Togo,Rose Gold,2022,Good,17700
-Mini Kelly,20,Bleu Brume,Togo,Rose Gold,2019,Good,18200
-Mini Kelly,20,Pink,Epsom,Rose Gold,2018,Good,18250
+Mini Kelly,20,Vert Bosphore,Swift,Rose Gold,2021,Used,16000
+Mini Kelly,20,Chocolat,Togo,Rose Gold,2019,Good,17450
+Mini Kelly,20,Chocolat,Togo,Rose Gold,2023,Good,17550
+Mini Kelly,20,Vert Fonce,Clemence,Gold,2018,Very Good,17550
+Mini Kelly,20,Noir,Swift,Rose Gold,2019,Good,17800
+Mini Kelly,20,Craie,Epsom,Gold,2022,Good,17850
+Mini Kelly,20,Rose,Chevre,Gold,2018,Good,18100
+Mini Kelly,20,Gris Etain,Togo,Rose Gold,2022,Good,18200
+Mini Kelly,20,Anemone,Togo,Gold,2023,Good,18400
+Mini Kelly,20,Etoupe,Clemence,Rose Gold,2019,Very Good,18550
 Mini Kelly,20,Sakura,Togo,Gold,2025,Good,18600
-Mini Kelly,20,Etoupe,Epsom,Palladium,2019,Very Good,18800
-Mini Kelly,20,Sakura,Epsom,Rose Gold,2022,Good,18950
-Mini Kelly,20,Pink,Epsom,Palladium,2021,Very Good,19250
-Mini Kelly,20,Sakura,Clemence,Rose Gold,2019,Very Good,19350
-Mini Kelly,20,Etoupe,Swift,Gold,2018,Very Good,19400
-Mini Kelly,20,Rose,Clemence,Gold,2022,Very Good,19400
-Mini Kelly,20,Mauve Sylvestre,Epsom,Palladium,2018,Very Good,19500
-Mini Kelly,20,Etoupe,Togo,Rose Gold,2021,Very Good,19650
-Mini Kelly,20,Rose,Chevre,Rose Gold,2022,Good,19750
-Mini Kelly,20,Gold,Togo,Gold,2023,Very Good,20000
-Mini Kelly,20,Etoupe,Epsom,Palladium,2023,Very Good,20050
-Mini Kelly,20,Mauve Sylvestre,Chevre,Gold,2021,Good,20450
-Mini Kelly,20,Mauve Sylvestre,Togo,Gold,2023,Very Good,20550
-Mini Kelly,20,Bleu Brume,Epsom,Gold,2019,Very Good,20600
-Mini Kelly,20,Gold,Clemence,Rose Gold,2019,Excellent,20650
-Mini Kelly,20,Sakura,Swift,Palladium,2020,Very Good,20700
-Mini Kelly,20,Sakura,Togo,Gold,2017,Excellent,20750
-Mini Kelly,20,Gold,Swift,Gold,2023,Very Good,20750
-Mini Kelly,20,Bleu Brume,Togo,Gold,2021,Very Good,20850
-Mini Kelly,20,Bleu Brume,Epsom,Rose Gold,2018,Very Good,20950
-Mini Kelly,20,Etoupe,Togo,Rose Gold,2018,Excellent,21000
-Mini Kelly,20,Pink,Epsom,Palladium,2025,Very Good,21250
-Mini Kelly,20,Mauve Sylvestre,Swift,Palladium,2023,Very Good,21250
-Mini Kelly,20,Sakura,Togo,Rose Gold,2024,Very Good,21350
-Mini Kelly,20,Sakura,Epsom,Gold,2020,Very Good,21400
-Mini Kelly,20,Mauve Sylvestre,Chevre,Palladium,2018,Very Good,21450
-Mini Kelly,20,Etoupe,Togo,Palladium,2018,New,21850
-Mini Kelly,20,Gold,Togo,Gold,2017,New,21950
-Mini Kelly,20,Pink,Clemence,Palladium,2018,New,21950
-Mini Kelly,20,Rose,Chevre,Gold,2023,Very Good,22150
-Mini Kelly,20,Pink,Epsom,Rose Gold,2017,Excellent,22200
-Mini Kelly,20,Etoupe,Clemence,Rose Gold,2024,Excellent,22250
-Mini Kelly,20,Sakura,Togo,Gold,2020,Excellent,22350
-Mini Kelly,20,Bleu Brume,Swift,Rose Gold,2022,Very Good,22400
-Mini Kelly,20,Gold,Swift,Palladium,2019,Excellent,22450
-Mini Kelly,20,Rose,Clemence,Gold,2022,Excellent,22550
-Mini Kelly,20,Noir,Togo,Rose Gold,2025,Excellent,22650
-Mini Kelly,20,Pink,Swift,Rose Gold,2025,Very Good,22950
-Mini Kelly,20,Sakura,Clemence,Palladium,2018,New,23200
-Mini Kelly,20,Bleu Brume,Swift,Rose Gold,2018,Excellent,23200
-Mini Kelly,20,Pink,Swift,Gold,2024,Very Good,23250
-Mini Kelly,20,Bleu Brume,Chevre,Gold,2023,Very Good,23300
-Mini Kelly,20,Sakura,Togo,Rose Gold,2023,Excellent,23500
-Mini Kelly,20,Pink,Clemence,Gold,2021,New,23700
-Mini Kelly,20,Pink,Chevre,Palladium,2017,Excellent,23750
-Mini Kelly,20,Bleu Brume,Epsom,Rose Gold,2022,Excellent,23800
-Mini Kelly,20,Mauve Sylvestre,Togo,Gold,2020,New,23900
-Mini Kelly,20,Bleu Brume,Swift,Rose Gold,2021,Excellent,23900
-Mini Kelly,20,Mauve Sylvestre,Epsom,Palladium,2022,Excellent,23950
-Mini Kelly,20,Sakura,Chevre,Rose Gold,2018,Excellent,24200
-Mini Kelly,20,Pink,Togo,Gold,2020,New,24450
-Mini Kelly,20,Bleu Brume,Chevre,Rose Gold,2020,Excellent,24500
-Mini Kelly,20,Gold,Togo,Palladium,2023,New,24550
-Mini Kelly,20,Noir,Swift,Palladium,2023,Excellent,24600
-Mini Kelly,20,Mauve Sylvestre,Swift,Gold,2022,Excellent,25750
-Mini Kelly,20,Mauve Sylvestre,Clemence,Rose Gold,2024,New,25850
-Mini Kelly,20,Noir,Epsom,Gold,2024,New,26300
-Mini Kelly,20,Sakura,Epsom,Rose Gold,2022,New,26950
-Mini Kelly,20,Sakura,Togo,Rose Gold,2021,New,27750
-Mini Kelly,20,Noir,Swift,Rose Gold,2024,New,27750
-Mini Kelly,20,Sakura,Epsom,Rose Gold,2021,New,28800
-Mini Kelly,20,Gold,Ostrich,Rose Gold,2023,Used,50150
-Mini Kelly,20,Gold,Ostrich,Palladium,2019,Good,53800
-Mini Kelly,20,Pink,Lizard,Gold,2022,Good,66200
+Mini Kelly,20,Gold,Chevre,Palladium,2022,Good,18750
+Mini Kelly,20,Gris Etain,Clemence,Palladium,2024,Very Good,18750
+Mini Kelly,20,Gris Etain,Clemence,Rose Gold,2017,Very Good,18850
+Mini Kelly,20,Bleu Saphir,Swift,Gold,2023,Good,18850
+Mini Kelly,20,Bleu Zellige,Chevre,Palladium,2020,Good,18900
+Mini Kelly,20,Vert Fonce,Chevre,Rose Gold,2018,Good,19000
+Mini Kelly,20,Noir,Togo,Palladium,2022,Very Good,19500
+Mini Kelly,20,Blanc,Epsom,Gold,2022,Very Good,19600
+Mini Kelly,20,Gold,Chevre,Gold,2019,Very Good,20650
+Mini Kelly,20,Blanc,Epsom,Rose Gold,2017,Excellent,20650
+Mini Kelly,20,Pink,Togo,Rose Gold,2023,Very Good,20650
+Mini Kelly,20,Etoupe,Epsom,Rose Gold,2020,Very Good,20700
+Mini Kelly,20,Gold,Togo,Rose Gold,2018,Excellent,20800
+Mini Kelly,20,Chocolat,Epsom,Rose Gold,2018,Very Good,21000
+Mini Kelly,20,Anemone,Epsom,Gold,2020,Very Good,21050
+Mini Kelly,20,Prune,Chevre,Rose Gold,2024,Good,21100
+Mini Kelly,20,Bleu Nuit,Swift,Palladium,2022,Very Good,21100
+Mini Kelly,20,Rouge H,Clemence,Rose Gold,2017,Excellent,21100
+Mini Kelly,20,Havane,Togo,Palladium,2019,Excellent,21150
+Mini Kelly,20,Pink,Clemence,Rose Gold,2025,Very Good,21250
+Mini Kelly,20,Orange,Togo,Gold,2023,Very Good,21550
+Mini Kelly,20,Bleu Nuit,Clemence,Palladium,2018,New,21550
+Mini Kelly,20,Bleu Saphir,Swift,Palladium,2025,Very Good,21750
+Mini Kelly,20,Vert Fonce,Swift,Rose Gold,2022,Very Good,21950
+Mini Kelly,20,Pink,Clemence,Palladium,2022,Excellent,22100
+Mini Kelly,20,Jaune Ambre,Chevre,Palladium,2018,Very Good,22300
+Mini Kelly,20,Mauve Sylvestre,Epsom,Palladium,2018,Excellent,22400
+Mini Kelly,20,Vert Fonce,Chevre,Gold,2022,Very Good,22700
+Mini Kelly,20,Bleu Nuit,Clemence,Gold,2018,New,23050
+Mini Kelly,20,Rose,Togo,Rose Gold,2025,Excellent,23200
+Mini Kelly,20,Craie,Epsom,Gold,2018,New,23300
+Mini Kelly,20,Vert Fonce,Epsom,Rose Gold,2022,Excellent,23350
+Mini Kelly,20,Havane,Clemence,Gold,2021,New,23700
+Mini Kelly,20,Rouge H,Swift,Rose Gold,2021,Excellent,23900
+Mini Kelly,20,Rouge Casaque,Epsom,Rose Gold,2021,Excellent,24050
+Mini Kelly,20,Orange,Chevre,Gold,2023,Very Good,24100
+Mini Kelly,20,Anemone,Clemence,Palladium,2022,New,24300
+Mini Kelly,20,Gold,Swift,Palladium,2017,New,24450
+Mini Kelly,20,Orange,Epsom,Palladium,2021,New,24450
+Mini Kelly,20,Craie,Chevre,Palladium,2017,New,24850
+Mini Kelly,20,Bleu Saphir,Swift,Palladium,2018,New,24950
+Mini Kelly,20,Bleu Zellige,Swift,Rose Gold,2023,Excellent,25000
+Mini Kelly,20,Bleu Brume,Chevre,Gold,2017,New,25100
+Mini Kelly,20,Rouge H,Togo,Gold,2021,New,25100
+Mini Kelly,20,Bleu Brume,Togo,Gold,2021,New,25150
+Mini Kelly,20,Chocolat,Chevre,Rose Gold,2023,Excellent,25200
+Mini Kelly,20,Jaune Ambre,Swift,Gold,2021,Excellent,25350
+Mini Kelly,20,Craie,Chevre,Gold,2022,Excellent,25500
+Mini Kelly,20,Mauve Sylvestre,Epsom,Rose Gold,2018,New,25700
+Mini Kelly,20,Anemone,Swift,Rose Gold,2025,Excellent,25750
+Mini Kelly,20,Bleu Brume,Swift,Rose Gold,2020,New,26500
+Mini Kelly,20,Etoupe,Togo,Rose Gold,2021,New,26600
+Mini Kelly,20,Jaune Ambre,Swift,Rose Gold,2022,Excellent,27050
+Mini Kelly,20,Anemone,Swift,Rose Gold,2022,New,28200
+Mini Kelly,20,Vert Bosphore,Chevre,Palladium,2025,New,29500
+Mini Kelly,20,Bleu Saphir,Chevre,Gold,2025,New,30150
+Mini Kelly,20,Bleu Zellige,Chevre,Gold,2025,New,30900
+Mini Kelly,20,Sakura,Chevre,Rose Gold,2024,New,31800
+Mini Kelly,20,Gris Etain,Lizard,Palladium,2018,Used,50450
+Mini Kelly,20,Vert Anis,Lizard,Gold,2019,Used,56900
+Mini Kelly,20,Rose,Ostrich,Gold,2023,Good,59150
+Mini Kelly,20,Sakura,Ostrich,Palladium,2017,Very Good,62350
+Mini Kelly,20,Orange,Alligator,Gold,2018,Used,64150
 Mini Kelly,20,Sakura,Ostrich,Rose Gold,2017,Very Good,67950
-Mini Kelly,20,Pink,Ostrich,Rose Gold,2020,Very Good,69400
-Mini Kelly,20,Gold,Crocodile,Palladium,2021,Used,70250
-Mini Kelly,20,Bleu Brume,Ostrich,Gold,2023,Excellent,72750
-Mini Kelly,20,Sakura,Lizard,Rose Gold,2023,Good,73650
-Mini Kelly,20,Sakura,Crocodile,Palladium,2023,Used,78000
-Mini Kelly,20,Rose,Alligator,Gold,2022,Very Good,89650
-Mini Kelly,20,Pink,Alligator,Gold,2018,Very Good,90650
-Mini Kelly,20,Etoupe,Crocodile,Palladium,2018,Very Good,94150
-Mini Kelly,20,Rose,Alligator,Palladium,2019,Excellent,94350
-Mini Kelly,20,Mauve Sylvestre,Alligator,Palladium,2025,Very Good,96450
-Mini Kelly,20,Sakura,Alligator,Gold,2020,Excellent,100950
-Mini Kelly,20,Mauve Sylvestre,Crocodile,Palladium,2024,New,128200
-Picotin,18,Etoupe,Epsom,Palladium,2019,Used,2600
-Picotin,18,Pink,Togo,Gold,2020,Used,2650
-Picotin,18,Rose,Togo,Gold,2017,Used,2650
-Picotin,18,Noir,Togo,Rose Gold,2020,Used,2800
-Picotin,18,Noir,Epsom,Gold,2024,Used,2900
-Picotin,18,Noir,Clemence,Rose Gold,2024,Used,2900
-Picotin,18,Pink,Epsom,Rose Gold,2021,Used,2950
-Picotin,18,Pink,Swift,Palladium,2019,Used,2950
+Mini Kelly,20,Etoupe,Crocodile,Palladium,2023,Used,74700
+Mini Kelly,20,Vert Fonce,Lizard,Rose Gold,2020,Excellent,83700
+Mini Kelly,20,Blanc,Alligator,Palladium,2019,Excellent,92100
+Mini Kelly,20,Noir,Crocodile,Palladium,2018,Very Good,92750
+Mini Kelly,20,Sakura,Crocodile,Palladium,2023,Good,93800
+Mini Kelly,20,Noir,Alligator,Gold,2024,Excellent,108150
+Mini Kelly,20,Etoupe,Alligator,Gold,2018,New,111200
+Mini Kelly,20,Sakura,Alligator,Palladium,2019,New,114250
+Mini Kelly,20,Vert Anis,Crocodile,Palladium,2024,New,127600
+Picotin,18,Rose,Togo,Rose Gold,2019,Used,2800
+Picotin,18,Orange,Clemence,Palladium,2020,Used,2850
+Picotin,18,Anemone,Epsom,Palladium,2019,Used,2850
+Picotin,18,Vert Anis,Epsom,Gold,2024,Used,2950
 Picotin,18,Sakura,Clemence,Palladium,2024,Used,2950
-Picotin,18,Pink,Swift,Palladium,2021,Used,2950
-Picotin,18,Pink,Togo,Rose Gold,2023,Used,3050
-Picotin,18,Bleu Brume,Chevre,Palladium,2020,Used,3150
-Picotin,18,Sakura,Epsom,Gold,2024,Used,3200
-Picotin,18,Gold,Clemence,Rose Gold,2022,Good,3250
-Picotin,18,Noir,Togo,Palladium,2017,Very Good,3350
-Picotin,18,Rose,Epsom,Gold,2023,Good,3400
-Picotin,18,Etoupe,Clemence,Palladium,2023,Good,3450
-Picotin,18,Noir,Swift,Palladium,2022,Good,3450
-Picotin,18,Mauve Sylvestre,Chevre,Rose Gold,2024,Used,3500
-Picotin,18,Noir,Epsom,Rose Gold,2022,Good,3550
-Picotin,18,Sakura,Togo,Gold,2025,Good,3550
-Picotin,18,Rose,Togo,Palladium,2024,Good,3550
-Picotin,18,Rose,Swift,Palladium,2022,Good,3600
-Picotin,18,Pink,Chevre,Palladium,2022,Good,3600
-Picotin,18,Mauve Sylvestre,Clemence,Palladium,2021,Very Good,3700
-Picotin,18,Mauve Sylvestre,Chevre,Palladium,2020,Good,3700
-Picotin,18,Etoupe,Epsom,Palladium,2021,Very Good,3700
-Picotin,18,Etoupe,Togo,Rose Gold,2020,Very Good,3850
-Picotin,18,Gold,Clemence,Palladium,2020,Excellent,3850
-Picotin,18,Noir,Togo,Gold,2021,Very Good,3900
-Picotin,18,Etoupe,Swift,Palladium,2020,Very Good,4000
-Picotin,18,Mauve Sylvestre,Chevre,Rose Gold,2020,Good,4000
-Picotin,18,Sakura,Togo,Rose Gold,2019,Very Good,4000
-Picotin,18,Rose,Clemence,Palladium,2021,Excellent,4050
-Picotin,18,Etoupe,Swift,Gold,2019,Very Good,4050
-Picotin,18,Etoupe,Clemence,Gold,2017,Excellent,4150
-Picotin,18,Sakura,Togo,Palladium,2023,Very Good,4150
-Picotin,18,Sakura,Chevre,Gold,2024,Good,4250
-Picotin,18,Mauve Sylvestre,Swift,Rose Gold,2017,Very Good,4300
-Picotin,18,Etoupe,Togo,Rose Gold,2022,Excellent,4350
-Picotin,18,Bleu Brume,Togo,Rose Gold,2025,Very Good,4400
-Picotin,18,Rose,Swift,Palladium,2022,Excellent,4500
-Picotin,18,Rose,Chevre,Rose Gold,2021,Very Good,4500
-Picotin,18,Bleu Brume,Togo,Palladium,2025,Excellent,4500
-Picotin,18,Gold,Epsom,Gold,2019,New,4550
-Picotin,18,Bleu Brume,Togo,Gold,2019,New,4600
-Picotin,18,Gold,Togo,Rose Gold,2018,New,4700
-Picotin,18,Pink,Clemence,Palladium,2024,New,4700
-Picotin,18,Pink,Togo,Palladium,2019,New,4750
-Picotin,18,Mauve Sylvestre,Chevre,Rose Gold,2023,Very Good,4800
-Picotin,18,Gold,Swift,Rose Gold,2020,Excellent,4850
-Picotin,18,Mauve Sylvestre,Togo,Palladium,2021,New,4850
-Picotin,18,Bleu Brume,Togo,Gold,2021,New,4950
-Picotin,18,Bleu Brume,Epsom,Palladium,2023,New,4950
-Picotin,18,Gold,Chevre,Rose Gold,2025,Excellent,5000
-Picotin,18,Rose,Epsom,Palladium,2025,New,5000
-Picotin,18,Rose,Chevre,Rose Gold,2020,Excellent,5050
-Picotin,18,Pink,Chevre,Gold,2020,New,5100
-Picotin,18,Bleu Brume,Chevre,Palladium,2023,Excellent,5150
-Picotin,18,Bleu Brume,Togo,Palladium,2024,New,5150
-Picotin,18,Pink,Chevre,Gold,2017,New,5250
-Picotin,18,Pink,Togo,Gold,2024,New,5300
-Picotin,18,Gold,Chevre,Rose Gold,2018,New,5350
-Picotin,18,Mauve Sylvestre,Swift,Gold,2021,New,5400
-Picotin,18,Mauve Sylvestre,Chevre,Palladium,2021,New,5400
-Picotin,18,Mauve Sylvestre,Chevre,Rose Gold,2021,New,5500
-Picotin,18,Rose,Chevre,Gold,2023,New,5600
-Picotin,18,Rose,Chevre,Rose Gold,2020,New,5700
-Picotin,18,Etoupe,Chevre,Palladium,2025,New,5800
-Picotin,18,Mauve Sylvestre,Chevre,Rose Gold,2023,New,5950
-Picotin,22,Etoupe,Clemence,Gold,2017,Used,2850
-Picotin,22,Gold,Clemence,Rose Gold,2020,Used,3100
-Picotin,22,Gold,Togo,Gold,2022,Used,3150
-Picotin,22,Rose,Clemence,Palladium,2025,Used,3200
-Picotin,22,Gold,Togo,Gold,2023,Used,3200
-Picotin,22,Noir,Epsom,Palladium,2020,Used,3250
-Picotin,22,Gold,Togo,Gold,2025,Used,3400
-Picotin,22,Sakura,Togo,Palladium,2022,Used,3400
-Picotin,22,Pink,Togo,Palladium,2018,Good,3450
-Picotin,22,Rose,Epsom,Rose Gold,2021,Used,3500
-Picotin,22,Etoupe,Clemence,Rose Gold,2017,Good,3700
-Picotin,22,Sakura,Epsom,Gold,2018,Good,3750
-Picotin,22,Sakura,Clemence,Palladium,2022,Good,3800
-Picotin,22,Rose,Swift,Palladium,2017,Good,3850
-Picotin,22,Gold,Clemence,Rose Gold,2023,Good,3950
-Picotin,22,Mauve Sylvestre,Epsom,Rose Gold,2017,Good,4000
-Picotin,22,Bleu Brume,Chevre,Gold,2019,Good,4000
-Picotin,22,Mauve Sylvestre,Togo,Rose Gold,2020,Good,4050
-Picotin,22,Bleu Brume,Clemence,Palladium,2025,Good,4100
-Picotin,22,Mauve Sylvestre,Clemence,Rose Gold,2025,Good,4100
-Picotin,22,Sakura,Clemence,Palladium,2024,Good,4100
-Picotin,22,Etoupe,Clemence,Gold,2019,Very Good,4150
-Picotin,22,Gold,Chevre,Palladium,2022,Good,4200
-Picotin,22,Bleu Brume,Clemence,Palladium,2023,Very Good,4300
-Picotin,22,Bleu Brume,Clemence,Gold,2020,Very Good,4400
-Picotin,22,Etoupe,Togo,Palladium,2017,Excellent,4400
-Picotin,22,Noir,Clemence,Rose Gold,2024,Very Good,4400
-Picotin,22,Pink,Clemence,Gold,2019,Very Good,4400
-Picotin,22,Noir,Chevre,Gold,2018,Very Good,4450
-Picotin,22,Gold,Chevre,Palladium,2025,Good,4450
-Picotin,22,Mauve Sylvestre,Epsom,Rose Gold,2022,Good,4450
+Picotin,18,Anemone,Epsom,Rose Gold,2021,Used,3050
+Picotin,18,Prune,Epsom,Gold,2025,Used,3050
+Picotin,18,Sakura,Chevre,Rose Gold,2018,Used,3200
+Picotin,18,Orange,Swift,Palladium,2022,Used,3250
+Picotin,18,Havane,Epsom,Gold,2021,Good,3300
+Picotin,18,Craie,Clemence,Rose Gold,2025,Good,3500
+Picotin,18,Vert Anis,Chevre,Rose Gold,2024,Used,3500
+Picotin,18,Vert Bosphore,Swift,Gold,2021,Good,3550
+Picotin,18,Bleu Brume,Togo,Rose Gold,2023,Good,3550
+Picotin,18,Bleu Zellige,Chevre,Rose Gold,2019,Good,3650
+Picotin,18,Chocolat,Chevre,Gold,2019,Good,3650
+Picotin,18,Anemone,Chevre,Palladium,2020,Good,3650
+Picotin,18,Sakura,Togo,Rose Gold,2024,Good,3700
+Picotin,18,Bleu Zellige,Togo,Palladium,2018,Very Good,3700
+Picotin,18,Blanc,Swift,Gold,2022,Good,3700
+Picotin,18,Noir,Chevre,Palladium,2017,Very Good,3800
+Picotin,18,Bleu Nuit,Swift,Gold,2025,Good,3850
+Picotin,18,Vert Fonce,Chevre,Palladium,2023,Good,3900
+Picotin,18,Bleu Saphir,Chevre,Rose Gold,2020,Good,3900
+Picotin,18,Anemone,Togo,Palladium,2020,Very Good,3900
+Picotin,18,Orange,Clemence,Gold,2025,Very Good,4050
+Picotin,18,Mauve Sylvestre,Swift,Rose Gold,2024,Good,4050
+Picotin,18,Sakura,Togo,Rose Gold,2023,Very Good,4150
+Picotin,18,Orange,Togo,Rose Gold,2020,Very Good,4200
+Picotin,18,Bleu Brume,Clemence,Gold,2020,Excellent,4350
+Picotin,18,Vert Bosphore,Clemence,Palladium,2017,New,4450
+Picotin,18,Gris Etain,Swift,Rose Gold,2023,Very Good,4500
+Picotin,18,Rose,Epsom,Rose Gold,2021,Excellent,4500
+Picotin,18,Orange,Epsom,Gold,2025,Very Good,4500
+Picotin,18,Pink,Epsom,Palladium,2020,New,4600
+Picotin,18,Anemone,Epsom,Rose Gold,2021,Excellent,4650
+Picotin,18,Rose,Clemence,Palladium,2022,New,4700
+Picotin,18,Mauve Sylvestre,Togo,Palladium,2019,New,4700
+Picotin,18,Gold,Togo,Gold,2023,New,4700
+Picotin,18,Anemone,Chevre,Gold,2021,Excellent,4750
+Picotin,18,Bleu Saphir,Clemence,Gold,2021,New,4800
+Picotin,18,Rouge Casaque,Chevre,Palladium,2023,Excellent,4850
+Picotin,18,Pink,Chevre,Rose Gold,2025,Very Good,4900
+Picotin,18,Havane,Epsom,Palladium,2019,New,4900
+Picotin,18,Prune,Chevre,Gold,2017,New,5050
+Picotin,18,Anemone,Epsom,Palladium,2023,New,5050
+Picotin,18,Bleu Zellige,Chevre,Palladium,2017,New,5100
+Picotin,18,Pink,Chevre,Gold,2019,New,5150
+Picotin,18,Gris Etain,Epsom,Gold,2025,New,5250
+Picotin,18,Vert Bosphore,Chevre,Rose Gold,2025,Excellent,5250
+Picotin,18,Pink,Togo,Gold,2025,New,5400
+Picotin,18,Bleu Saphir,Swift,Rose Gold,2025,New,5650
+Picotin,18,Rouge Casaque,Chevre,Palladium,2022,New,5650
+Picotin,22,Rouge Casaque,Clemence,Gold,2017,Used,2850
+Picotin,22,Etoupe,Togo,Palladium,2018,Used,3050
+Picotin,22,Mauve Sylvestre,Clemence,Palladium,2020,Used,3100
+Picotin,22,Rose,Swift,Palladium,2017,Used,3150
+Picotin,22,Etoupe,Clemence,Palladium,2025,Used,3200
+Picotin,22,Rouge H,Togo,Palladium,2025,Used,3250
+Picotin,22,Anemone,Clemence,Palladium,2022,Used,3300
+Picotin,22,Bleu Zellige,Clemence,Rose Gold,2023,Used,3400
+Picotin,22,Jaune Ambre,Togo,Gold,2025,Used,3400
+Picotin,22,Rouge H,Chevre,Palladium,2021,Used,3450
+Picotin,22,Orange,Togo,Rose Gold,2025,Used,3600
+Picotin,22,Orange,Clemence,Palladium,2022,Good,3750
+Picotin,22,Pink,Clemence,Palladium,2021,Good,3750
+Picotin,22,Sakura,Togo,Gold,2019,Good,3750
+Picotin,22,Blanc,Swift,Palladium,2017,Good,3750
+Picotin,22,Bleu Nuit,Epsom,Rose Gold,2019,Good,3850
+Picotin,22,Chocolat,Swift,Gold,2020,Good,3900
+Picotin,22,Gold,Swift,Rose Gold,2017,Good,3900
+Picotin,22,Havane,Togo,Gold,2022,Good,3900
+Picotin,22,Orange,Togo,Rose Gold,2020,Good,3950
+Picotin,22,Gris Etain,Swift,Palladium,2023,Good,4000
+Picotin,22,Mauve Sylvestre,Clemence,Gold,2024,Good,4000
+Picotin,22,Noir,Clemence,Palladium,2017,Very Good,4050
+Picotin,22,Rouge Casaque,Chevre,Gold,2017,Good,4200
+Picotin,22,Bleu Brume,Togo,Gold,2021,Very Good,4300
+Picotin,22,Vert Fonce,Clemence,Gold,2020,Very Good,4300
+Picotin,22,Bleu Brume,Epsom,Gold,2019,Very Good,4400
 Picotin,22,Sakura,Swift,Palladium,2019,Very Good,4500
-Picotin,22,Pink,Clemence,Palladium,2025,Very Good,4500
-Picotin,22,Sakura,Clemence,Rose Gold,2019,Very Good,4550
-Picotin,22,Gold,Chevre,Rose Gold,2019,Very Good,4750
-Picotin,22,Sakura,Chevre,Palladium,2020,Very Good,4800
-Picotin,22,Bleu Brume,Swift,Palladium,2025,Very Good,4850
-Picotin,22,Gold,Swift,Gold,2025,Very Good,4850
-Picotin,22,Gold,Swift,Gold,2019,Excellent,4850
-Picotin,22,Noir,Togo,Rose Gold,2024,Very Good,4900
-Picotin,22,Bleu Brume,Chevre,Palladium,2020,Very Good,4950
-Picotin,22,Etoupe,Clemence,Palladium,2025,Excellent,4950
-Picotin,22,Noir,Swift,Palladium,2024,Very Good,4950
-Picotin,22,Bleu Brume,Togo,Rose Gold,2017,Excellent,5000
-Picotin,22,Sakura,Clemence,Palladium,2023,Excellent,5000
-Picotin,22,Gold,Clemence,Rose Gold,2017,New,5100
-Picotin,22,Rose,Clemence,Rose Gold,2021,Excellent,5200
-Picotin,22,Mauve Sylvestre,Swift,Gold,2018,Excellent,5350
-Picotin,22,Bleu Brume,Swift,Gold,2019,Excellent,5400
-Picotin,22,Mauve Sylvestre,Clemence,Rose Gold,2018,New,5450
-Picotin,22,Bleu Brume,Chevre,Palladium,2022,Excellent,5500
-Picotin,22,Noir,Chevre,Palladium,2024,Excellent,5600
-Picotin,22,Rose,Chevre,Gold,2025,Excellent,5600
-Picotin,22,Etoupe,Togo,Palladium,2025,New,5700
-Picotin,22,Bleu Brume,Togo,Gold,2022,New,5700
-Picotin,22,Pink,Togo,Palladium,2025,New,5750
-Picotin,22,Mauve Sylvestre,Swift,Gold,2019,New,5900
-Picotin,22,Bleu Brume,Togo,Rose Gold,2021,New,5900
-Picotin,22,Etoupe,Swift,Rose Gold,2023,New,6100
-Picotin,22,Gold,Swift,Rose Gold,2025,New,6400
+Picotin,22,Pink,Swift,Rose Gold,2021,Good,4550
+Picotin,22,Pink,Chevre,Rose Gold,2024,Good,4550
+Picotin,22,Havane,Togo,Rose Gold,2021,Very Good,4700
+Picotin,22,Gris Etain,Epsom,Gold,2017,Excellent,4750
+Picotin,22,Vert Fonce,Clemence,Rose Gold,2023,Very Good,4750
+Picotin,22,Vert Anis,Togo,Rose Gold,2020,Very Good,4800
+Picotin,22,Noir,Clemence,Palladium,2025,Excellent,4900
+Picotin,22,Anemone,Swift,Palladium,2025,Very Good,5000
+Picotin,22,Rose,Swift,Gold,2018,Excellent,5000
+Picotin,22,Craie,Togo,Rose Gold,2021,Excellent,5050
+Picotin,22,Vert Fonce,Swift,Gold,2017,Excellent,5050
+Picotin,22,Bleu Saphir,Swift,Rose Gold,2018,Excellent,5200
+Picotin,22,Vert Bosphore,Swift,Palladium,2024,Excellent,5400
+Picotin,22,Prune,Clemence,Gold,2022,New,5400
+Picotin,22,Bleu Saphir,Chevre,Gold,2025,Very Good,5450
+Picotin,22,Bleu Brume,Clemence,Gold,2024,New,5500
+Picotin,22,Prune,Togo,Gold,2018,New,5550
+Picotin,22,Bleu Saphir,Chevre,Rose Gold,2017,Excellent,5600
+Picotin,22,Vert Anis,Chevre,Gold,2021,Excellent,5600
+Picotin,22,Vert Anis,Chevre,Rose Gold,2018,Excellent,5750
+Picotin,22,Bleu Zellige,Clemence,Gold,2023,New,5800
+Picotin,22,Jaune Ambre,Chevre,Rose Gold,2025,Very Good,5900
+Picotin,22,Rouge Casaque,Swift,Gold,2019,New,6000
+Picotin,22,Sakura,Chevre,Gold,2023,Excellent,6150
+Picotin,22,Bleu Brume,Chevre,Gold,2022,New,6150
+Picotin,22,Jaune Ambre,Swift,Rose Gold,2020,New,6200
+Picotin,22,Jaune Ambre,Chevre,Palladium,2022,New,6350
+Picotin,22,Bleu Saphir,Chevre,Palladium,2024,New,6400
+Picotin,22,Rouge H,Chevre,Gold,2025,New,6550
+Roulis,18,Vert Fonce,Clemence,Gold,2020,Used,4800
+Roulis,18,Vert Fonce,Swift,Palladium,2021,Used,5700
+Roulis,18,Sakura,Chevre,Palladium,2020,Used,5850
+Roulis,18,Chocolat,Swift,Rose Gold,2020,Used,5850
+Roulis,18,Gold,Swift,Gold,2025,Used,6000
+Roulis,18,Sakura,Chevre,Gold,2024,Used,6100
+Roulis,18,Chocolat,Swift,Palladium,2018,Good,6500
+Roulis,18,Vert Bosphore,Togo,Rose Gold,2021,Good,6500
+Roulis,18,Gold,Chevre,Gold,2022,Good,6750
+Roulis,18,Pink,Swift,Palladium,2022,Good,6800
+Roulis,18,Jaune Ambre,Epsom,Gold,2024,Good,6850
+Roulis,18,Rouge Casaque,Clemence,Palladium,2019,Excellent,7150
+Roulis,18,Etoupe,Chevre,Palladium,2018,Very Good,7350
+Roulis,18,Blanc,Togo,Palladium,2018,Excellent,7650
+Roulis,18,Havane,Epsom,Rose Gold,2018,Excellent,7800
+Roulis,18,Pink,Swift,Gold,2017,Excellent,8050
+Roulis,18,Vert Anis,Epsom,Rose Gold,2025,Very Good,8250
+Roulis,18,Mauve Sylvestre,Clemence,Palladium,2019,New,8500
+Roulis,18,Rose,Swift,Gold,2024,Very Good,8550
+Roulis,18,Vert Bosphore,Swift,Palladium,2020,Excellent,8600
+Roulis,18,Gold,Clemence,Palladium,2021,New,8900
+Roulis,18,Bleu Nuit,Epsom,Gold,2024,New,9050
+Roulis,18,Sakura,Chevre,Gold,2022,Excellent,9050
+Roulis,18,Chocolat,Swift,Palladium,2018,New,9050
+Roulis,18,Noir,Swift,Rose Gold,2025,Excellent,9150
+Roulis,18,Anemone,Epsom,Rose Gold,2020,New,9300
+Roulis,18,Mauve Sylvestre,Epsom,Rose Gold,2020,New,9650
+Roulis,18,Vert Anis,Epsom,Rose Gold,2021,New,9800
+Roulis,18,Vert Fonce,Chevre,Palladium,2023,New,10250
+Roulis,18,Bleu Saphir,Chevre,Rose Gold,2023,New,10450
+Roulis,18,Blanc,Ostrich,Gold,2017,New,26850
+Roulis,18,Gold,Ostrich,Gold,2025,Excellent,27250
+Roulis,23,Gris Etain,Togo,Gold,2017,Used,5200
+Roulis,23,Noir,Swift,Gold,2017,Used,5450
+Roulis,23,Havane,Togo,Rose Gold,2017,Used,5700
+Roulis,23,Chocolat,Swift,Palladium,2021,Used,5950
+Roulis,23,Vert Bosphore,Togo,Palladium,2017,Good,6050
+Roulis,23,Havane,Chevre,Gold,2019,Used,6150
+Roulis,23,Etoupe,Chevre,Palladium,2021,Used,6300
+Roulis,23,Bleu Brume,Swift,Gold,2024,Used,6350
+Roulis,23,Craie,Swift,Rose Gold,2024,Used,6550
+Roulis,23,Rose,Epsom,Gold,2017,Good,6650
+Roulis,23,Gris Etain,Epsom,Rose Gold,2017,Good,6700
+Roulis,23,Jaune Ambre,Chevre,Gold,2022,Used,6800
+Roulis,23,Bleu Brume,Chevre,Rose Gold,2025,Used,7050
+Roulis,23,Rouge Casaque,Togo,Rose Gold,2019,Good,7100
+Roulis,23,Vert Anis,Togo,Gold,2021,Good,7150
+Roulis,23,Vert Fonce,Togo,Palladium,2023,Good,7200
+Roulis,23,Rouge Casaque,Clemence,Palladium,2017,Very Good,7300
+Roulis,23,Noir,Chevre,Gold,2023,Good,7400
+Roulis,23,Pink,Swift,Palladium,2024,Good,7400
+Roulis,23,Vert Anis,Epsom,Palladium,2017,Very Good,7400
+Roulis,23,Etoupe,Clemence,Rose Gold,2017,Very Good,7650
+Roulis,23,Rouge Casaque,Chevre,Rose Gold,2019,Good,8000
+Roulis,23,Orange,Swift,Gold,2019,Very Good,8300
+Roulis,23,Craie,Chevre,Gold,2017,Very Good,8350
+Roulis,23,Blanc,Epsom,Gold,2024,Very Good,8400
+Roulis,23,Noir,Chevre,Palladium,2023,Very Good,8450
+Roulis,23,Rose,Clemence,Gold,2025,Very Good,8600
+Roulis,23,Mauve Sylvestre,Togo,Rose Gold,2025,Very Good,8600
+Roulis,23,Gris Etain,Swift,Gold,2019,Excellent,9050
+Roulis,23,Vert Anis,Togo,Palladium,2017,New,9600
+Roulis,23,Pink,Epsom,Rose Gold,2024,Excellent,9600
+Roulis,23,Gold,Togo,Gold,2024,New,10200
+Roulis,23,Chocolat,Togo,Rose Gold,2022,New,10500
+Roulis,23,Havane,Chevre,Gold,2020,New,10600
+Roulis,23,Etoupe,Swift,Gold,2021,New,10650
+Roulis,23,Chocolat,Togo,Rose Gold,2022,New,10650
+Roulis,23,Bleu Zellige,Chevre,Gold,2022,New,11350
+Roulis,23,Prune,Swift,Palladium,2025,New,11650
+Roulis,23,Gold,Chevre,Gold,2025,New,11850
+Roulis,23,Mauve Sylvestre,Epsom,Rose Gold,2025,New,12000
+Roulis,23,Orange,Lizard,Palladium,2025,Used,24300
+Roulis,23,Vert Bosphore,Lizard,Rose Gold,2025,Used,24500
+Roulis,23,Orange,Alligator,Palladium,2021,Used,25350
+Roulis,23,Etoupe,Ostrich,Palladium,2023,New,31750
+Roulis,23,Rose,Lizard,Gold,2018,Excellent,33700
+Roulis,23,Rouge H,Alligator,Gold,2023,Good,33850
+Roulis,23,Mauve Sylvestre,Lizard,Palladium,2021,Excellent,34700
+Roulis,23,Craie,Alligator,Palladium,2020,New,43600

@@ -1,5 +1,5 @@
 """Generates a large, realistic-but-synthetic comparable-sales dataset for
-Luxury Alpha, replacing the original ~100-row bags.csv with ~700 rows that
+Luxury Alpha, replacing the original ~100-row bags.csv with ~1,200 rows that
 span far more model/size/leather/color/hardware/year/condition combinations.
 
 Not scraped from any real marketplace — prices are derived from a simple
@@ -13,7 +13,7 @@ import csv
 import random
 from pathlib import Path
 
-from valuation import COLORS, KNOWN_HARDWARE
+from valuation import COLORS, KNOWN_HARDWARE, MODEL_SIZES
 
 OUTPUT_PATH = Path(__file__).parent / "data" / "bags.csv"
 
@@ -23,18 +23,39 @@ CONDITIONS = ["New", "Excellent", "Very Good", "Good", "Used"]
 YEARS = list(range(2017, 2026))
 
 # Base price (EUR) for standard leather / Palladium hardware / Excellent
-# condition / ~2023, per (model, size).
-MODEL_SIZES = {
-    "Mini Kelly": {20: 21500},
-    "Kelly": {25: 15500, 28: 16500},
-    "Birkin": {25: 19500, 30: 17500, 35: 15500},
-    "Constance": {18: 9800, 24: 12500},
-    "Picotin": {18: 4200, 22: 4800},
+# condition / ~2023, per (model, size). Must cover every size listed in
+# valuation.MODEL_SIZES.
+BASE_PRICES = {
+    ("Mini Kelly", 20): 21500,
+    ("Kelly", 25): 15500,
+    ("Kelly", 28): 16500,
+    ("Birkin", 25): 19500,
+    ("Birkin", 30): 17500,
+    ("Birkin", 35): 15500,
+    ("Constance", 18): 9800,
+    ("Constance", 24): 12500,
+    ("Picotin", 18): 4200,
+    ("Picotin", 22): 4800,
+    ("Lindy", 26): 8000,
+    ("Lindy", 30): 8800,
+    ("Bolide", 27): 10500,
+    ("Bolide", 31): 11500,
+    ("Evelyne", 16): 3200,
+    ("Evelyne", 29): 4300,
+    ("Evelyne", 33): 5200,
+    ("Garden Party", 30): 3600,
+    ("Garden Party", 36): 4100,
+    ("Roulis", 18): 7800,
+    ("Roulis", 23): 8600,
+    ("Halzan", 25): 6200,
+    ("Halzan", 31): 7000,
 }
 
-# Exotic leathers aren't realistically produced for every model/size — only
-# allow them where Hermès actually offers them.
-EXOTIC_ALLOWED = {"Mini Kelly", "Kelly", "Birkin", "Constance"}
+# Exotic leathers aren't realistically produced for every model — only
+# allow them where Hermès actually offers them. Evelyne, Garden Party and
+# Picotin are casual/canvas-leaning styles that essentially never come in
+# exotic skins, so they're excluded.
+EXOTIC_ALLOWED = {"Mini Kelly", "Kelly", "Birkin", "Constance", "Lindy", "Bolide", "Roulis", "Halzan"}
 
 LEATHER_MULTIPLIER = {
     "Togo": 1.00, "Clemence": 0.98, "Epsom": 1.03, "Swift": 1.08, "Chevre": 1.12,
@@ -50,7 +71,13 @@ ROWS_PER_MODEL = {
     "Kelly": 150,
     "Mini Kelly": 100,
     "Constance": 120,
-    "Picotin": 130,
+    "Picotin": 110,
+    "Lindy": 90,
+    "Bolide": 80,
+    "Evelyne": 90,
+    "Garden Party": 80,
+    "Roulis": 80,
+    "Halzan": 80,
 }
 
 ALL_COLORS = list(COLORS.keys())
@@ -63,7 +90,7 @@ def pick_leather(model):
 
 
 def price_for(model, size, leather, hardware, year, condition, color):
-    base = MODEL_SIZES[model][size]
+    base = BASE_PRICES[(model, size)]
     price = base * LEATHER_MULTIPLIER[leather] * HARDWARE_MULTIPLIER[hardware]
     price *= CONDITION_MULTIPLIER[condition]
     price *= 1 + (year - 2023) * 0.015
@@ -76,7 +103,7 @@ def price_for(model, size, leather, hardware, year, condition, color):
 def generate_rows():
     rows = []
     for model, count in ROWS_PER_MODEL.items():
-        sizes = list(MODEL_SIZES[model].keys())
+        sizes = MODEL_SIZES[model]
         for _ in range(count):
             size = random.choice(sizes)
             leather = pick_leather(model)
