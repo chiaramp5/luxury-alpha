@@ -11,23 +11,39 @@ function fillSelect(select, values, selected) {
   }
 }
 
-async function loadOptions() {
-  const res = await fetch("/api/options");
-  const options = await res.json();
+async function loadOptions(attemptsLeft = 6) {
+  const banner = document.getElementById("loading-banner");
+  const submitBtn = document.querySelector(".submit-btn");
 
-  const modelSelect = document.getElementById("f-model");
-  const sizeSelect = document.getElementById("f-size");
+  try {
+    const res = await fetch("/api/options");
+    if (!res.ok) throw new Error("Bad response");
+    const options = await res.json();
 
-  fillSelect(modelSelect, options.models);
-  fillSelect(sizeSelect, options.model_sizes[modelSelect.value]);
-  fillSelect(document.getElementById("f-color"), options.colors);
-  fillSelect(document.getElementById("f-leather"), options.leathers);
-  fillSelect(document.getElementById("f-hardware"), options.hardware);
-  fillSelect(document.getElementById("f-condition"), options.conditions, "Excellent");
+    const modelSelect = document.getElementById("f-model");
+    const sizeSelect = document.getElementById("f-size");
 
-  modelSelect.addEventListener("change", () => {
+    fillSelect(modelSelect, options.models);
     fillSelect(sizeSelect, options.model_sizes[modelSelect.value]);
-  });
+    fillSelect(document.getElementById("f-color"), options.colors);
+    fillSelect(document.getElementById("f-leather"), options.leathers);
+    fillSelect(document.getElementById("f-hardware"), options.hardware);
+    fillSelect(document.getElementById("f-condition"), options.conditions, "Excellent");
+
+    modelSelect.addEventListener("change", () => {
+      fillSelect(sizeSelect, options.model_sizes[modelSelect.value]);
+    });
+
+    banner.hidden = true;
+    submitBtn.disabled = false;
+  } catch (e) {
+    if (attemptsLeft > 0) {
+      banner.textContent = "Waking up the server — this can take up to a minute after inactivity…";
+      setTimeout(() => loadOptions(attemptsLeft - 1), 5000);
+    } else {
+      banner.textContent = "Couldn't connect to the server. Please refresh the page to try again.";
+    }
+  }
 }
 
 function setupHeroZoom() {
@@ -150,7 +166,7 @@ function setupForm() {
       const data = await res.json();
       renderResults(data);
     } catch (e) {
-      errorEl.textContent = "Could not reach the server.";
+      errorEl.textContent = "Could not reach the server — it may be waking up after inactivity. Please wait a few seconds and try again.";
       errorEl.hidden = false;
     } finally {
       submitBtn.disabled = false;
